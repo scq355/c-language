@@ -1,17 +1,17 @@
 /**
  * C语言入门经典
  **/
-#include "chapter01/chapter01.h"
-#include "chapter02/chapter02.h"
-#include "chapter03/chapter03.h"
-#include "chapter04/chapter04.h"
-#include "chapter05/chapter05.h"
-#include "chapter06/chapter06.h"
-#include "chapter07/chapter07.h"
-#include "chapter08/chapter08.h"
-#include "chapter10/chapter10.h"
-#include "chapter11/chapter11.h"
-#include "chapter13/chapter13.h"
+#include "base/chapter01/chapter01.h"
+#include "base/chapter02/chapter02.h"
+#include "base/chapter03/chapter03.h"
+#include "base/chapter04/chapter04.h"
+#include "base/chapter05/chapter05.h"
+#include "base/chapter06/chapter06.h"
+#include "base/chapter07/chapter07.h"
+#include "base/chapter08/chapter08.h"
+#include "base/chapter10/chapter10.h"
+#include "base/chapter11/chapter11.h"
+#include "base/chapter13/chapter13.h"
 
 int main() {
     // 第一章 C语言编程
@@ -21,7 +21,7 @@ int main() {
     chapter0202();
 
     // 第三章 条件判断
-	chapter0301();
+    chapter0301();
 
     // 第四章 循环
     chapter0402();
