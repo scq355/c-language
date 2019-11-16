@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sunchangqing/workspaces/c-lanague/chapter01/chapter01.h
+stdio.h
+/Users/sunchangqing/workspaces/c-lanague/chapter01/stdio.h
+
+/Users/sunchangqing/workspaces/c-lanague/main.cpp
+chapter01/chapter01.h
+/Users/sunchangqing/workspaces/c-lanague/chapter01/chapter01.h
+

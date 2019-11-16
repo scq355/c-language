@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_lanague"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_lanague">
+				<Option output="/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/c_lanague" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_lanague"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_lanague/fast">
+				<Option output="/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/c_lanague" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_lanague/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter01/chapter01.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter01/chapter01.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter02/chapter02.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter02/chapter02.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter03/chapter03.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter03/chapter03.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter04/chapter04.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter04/chapter04.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter05/chapter05.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter05/chapter05.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter06/chapter06.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter06/chapter06.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter07/chapter07.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter07/chapter07.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter08/chapter08.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter08/chapter08.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter10/chapter10.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter10/chapter10.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter11/chapter11.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter11/chapter11.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter13/chapter13.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/chapter13/chapter13.h">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/main.cpp">
+			<Option target="c_lanague"/>
+		</Unit>
+		<Unit filename="/Users/sunchangqing/workspaces/c-lanague/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
