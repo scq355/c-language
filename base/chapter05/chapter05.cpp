@@ -4,6 +4,7 @@
 
 #include "chapter05.h"
 
+// 不用数组
 int chapter0501() {
     int grade = 0;
     unsigned int count = 10;
@@ -22,7 +23,7 @@ int chapter0501() {
     return 0;
 }
 
-
+// 不用数组循环
 int chapter0502() {
     int grade0 = 0, grade1 = 0, grade2 = 0, grade3 = 0, grade4 = 0;
     int grade5 = 0, grade6 = 0, grade7 = 0, grade8 = 0, grade9 = 0;
@@ -46,6 +47,7 @@ int chapter0502() {
     return 0;
 }
 
+// 使用数组
 int chapter0503() {
     int grades[10];
     unsigned int count = 10;
@@ -64,6 +66,7 @@ int chapter0503() {
     return 0;
 }
 
+// 检索数组元素值
 int chapter0504() {
     int grades[10];
     unsigned int count = 10;
@@ -88,6 +91,7 @@ int chapter0504() {
     return 0;
 }
 
+// 寻址运算符：&
 int chapter0505() {
     long a = 1L;
     long b = 2L;
@@ -105,7 +109,7 @@ int chapter0505() {
     printf("\n\nA variable of type double occupies %u bytes.", sizeof(double));
     printf("\nThe address of d is: %p The address of e is: %p", &d, &e);
     printf("\nThe address of f is: %p ", &f);
-
+    printf("\n");
 
     int data[5];
     for (unsigned int i = 0; i < 5; i++) {
@@ -116,7 +120,7 @@ int chapter0505() {
     return 0;
 }
 
-
+// 二维数组
 int chapter0506() {
     char size[3][12] = {
             {'6', '6', '6', '6', '7', '7', '7', '7', '7', '7', '7', '7'},
@@ -160,9 +164,12 @@ int chapter0506() {
     return 0;
 }
 
+// 变长数组
 int chapter0507() {
-    const size_t nGrades = 5;
+    // 变长数组对应的数据类型：size_t
+    size_t nGrades = 0;
     printf("Enter the number of grades: ");
+    // 变长数组输入格式：%zd
     scanf("%zd", &nGrades);
 
     int grades[nGrades];

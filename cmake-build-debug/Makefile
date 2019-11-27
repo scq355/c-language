@@ -123,302 +123,302 @@ c_lanague/fast:
 	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/build
 .PHONY : c_lanague/fast
 
-chapter01/chapter01.o: chapter01/chapter01.cpp.o
+base/chapter01/chapter01.o: base/chapter01/chapter01.cpp.o
 
-.PHONY : chapter01/chapter01.o
-
-# target to build an object file
-chapter01/chapter01.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.o
-.PHONY : chapter01/chapter01.cpp.o
-
-chapter01/chapter01.i: chapter01/chapter01.cpp.i
-
-.PHONY : chapter01/chapter01.i
-
-# target to preprocess a source file
-chapter01/chapter01.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.i
-.PHONY : chapter01/chapter01.cpp.i
-
-chapter01/chapter01.s: chapter01/chapter01.cpp.s
-
-.PHONY : chapter01/chapter01.s
-
-# target to generate assembly for a file
-chapter01/chapter01.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.s
-.PHONY : chapter01/chapter01.cpp.s
-
-chapter02/chapter02.o: chapter02/chapter02.cpp.o
-
-.PHONY : chapter02/chapter02.o
+.PHONY : base/chapter01/chapter01.o
 
 # target to build an object file
-chapter02/chapter02.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.o
-.PHONY : chapter02/chapter02.cpp.o
+base/chapter01/chapter01.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.o
+.PHONY : base/chapter01/chapter01.cpp.o
 
-chapter02/chapter02.i: chapter02/chapter02.cpp.i
+base/chapter01/chapter01.i: base/chapter01/chapter01.cpp.i
 
-.PHONY : chapter02/chapter02.i
+.PHONY : base/chapter01/chapter01.i
 
 # target to preprocess a source file
-chapter02/chapter02.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.i
-.PHONY : chapter02/chapter02.cpp.i
+base/chapter01/chapter01.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.i
+.PHONY : base/chapter01/chapter01.cpp.i
 
-chapter02/chapter02.s: chapter02/chapter02.cpp.s
+base/chapter01/chapter01.s: base/chapter01/chapter01.cpp.s
 
-.PHONY : chapter02/chapter02.s
+.PHONY : base/chapter01/chapter01.s
 
 # target to generate assembly for a file
-chapter02/chapter02.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.s
-.PHONY : chapter02/chapter02.cpp.s
+base/chapter01/chapter01.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.s
+.PHONY : base/chapter01/chapter01.cpp.s
 
-chapter03/chapter03.o: chapter03/chapter03.cpp.o
+base/chapter02/chapter02.o: base/chapter02/chapter02.cpp.o
 
-.PHONY : chapter03/chapter03.o
+.PHONY : base/chapter02/chapter02.o
 
 # target to build an object file
-chapter03/chapter03.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.o
-.PHONY : chapter03/chapter03.cpp.o
+base/chapter02/chapter02.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.o
+.PHONY : base/chapter02/chapter02.cpp.o
 
-chapter03/chapter03.i: chapter03/chapter03.cpp.i
+base/chapter02/chapter02.i: base/chapter02/chapter02.cpp.i
 
-.PHONY : chapter03/chapter03.i
+.PHONY : base/chapter02/chapter02.i
 
 # target to preprocess a source file
-chapter03/chapter03.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.i
-.PHONY : chapter03/chapter03.cpp.i
+base/chapter02/chapter02.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.i
+.PHONY : base/chapter02/chapter02.cpp.i
 
-chapter03/chapter03.s: chapter03/chapter03.cpp.s
+base/chapter02/chapter02.s: base/chapter02/chapter02.cpp.s
 
-.PHONY : chapter03/chapter03.s
+.PHONY : base/chapter02/chapter02.s
 
 # target to generate assembly for a file
-chapter03/chapter03.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.s
-.PHONY : chapter03/chapter03.cpp.s
+base/chapter02/chapter02.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.s
+.PHONY : base/chapter02/chapter02.cpp.s
 
-chapter04/chapter04.o: chapter04/chapter04.cpp.o
+base/chapter03/chapter03.o: base/chapter03/chapter03.cpp.o
 
-.PHONY : chapter04/chapter04.o
+.PHONY : base/chapter03/chapter03.o
 
 # target to build an object file
-chapter04/chapter04.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.o
-.PHONY : chapter04/chapter04.cpp.o
+base/chapter03/chapter03.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.o
+.PHONY : base/chapter03/chapter03.cpp.o
 
-chapter04/chapter04.i: chapter04/chapter04.cpp.i
+base/chapter03/chapter03.i: base/chapter03/chapter03.cpp.i
 
-.PHONY : chapter04/chapter04.i
+.PHONY : base/chapter03/chapter03.i
 
 # target to preprocess a source file
-chapter04/chapter04.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.i
-.PHONY : chapter04/chapter04.cpp.i
+base/chapter03/chapter03.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.i
+.PHONY : base/chapter03/chapter03.cpp.i
 
-chapter04/chapter04.s: chapter04/chapter04.cpp.s
+base/chapter03/chapter03.s: base/chapter03/chapter03.cpp.s
 
-.PHONY : chapter04/chapter04.s
+.PHONY : base/chapter03/chapter03.s
 
 # target to generate assembly for a file
-chapter04/chapter04.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.s
-.PHONY : chapter04/chapter04.cpp.s
+base/chapter03/chapter03.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.s
+.PHONY : base/chapter03/chapter03.cpp.s
 
-chapter05/chapter05.o: chapter05/chapter05.cpp.o
+base/chapter04/chapter04.o: base/chapter04/chapter04.cpp.o
 
-.PHONY : chapter05/chapter05.o
+.PHONY : base/chapter04/chapter04.o
 
 # target to build an object file
-chapter05/chapter05.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.o
-.PHONY : chapter05/chapter05.cpp.o
+base/chapter04/chapter04.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.o
+.PHONY : base/chapter04/chapter04.cpp.o
 
-chapter05/chapter05.i: chapter05/chapter05.cpp.i
+base/chapter04/chapter04.i: base/chapter04/chapter04.cpp.i
 
-.PHONY : chapter05/chapter05.i
+.PHONY : base/chapter04/chapter04.i
 
 # target to preprocess a source file
-chapter05/chapter05.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.i
-.PHONY : chapter05/chapter05.cpp.i
+base/chapter04/chapter04.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.i
+.PHONY : base/chapter04/chapter04.cpp.i
 
-chapter05/chapter05.s: chapter05/chapter05.cpp.s
+base/chapter04/chapter04.s: base/chapter04/chapter04.cpp.s
 
-.PHONY : chapter05/chapter05.s
+.PHONY : base/chapter04/chapter04.s
 
 # target to generate assembly for a file
-chapter05/chapter05.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.s
-.PHONY : chapter05/chapter05.cpp.s
+base/chapter04/chapter04.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.s
+.PHONY : base/chapter04/chapter04.cpp.s
 
-chapter06/chapter06.o: chapter06/chapter06.cpp.o
+base/chapter05/chapter05.o: base/chapter05/chapter05.cpp.o
 
-.PHONY : chapter06/chapter06.o
+.PHONY : base/chapter05/chapter05.o
 
 # target to build an object file
-chapter06/chapter06.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.o
-.PHONY : chapter06/chapter06.cpp.o
+base/chapter05/chapter05.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.o
+.PHONY : base/chapter05/chapter05.cpp.o
 
-chapter06/chapter06.i: chapter06/chapter06.cpp.i
+base/chapter05/chapter05.i: base/chapter05/chapter05.cpp.i
 
-.PHONY : chapter06/chapter06.i
+.PHONY : base/chapter05/chapter05.i
 
 # target to preprocess a source file
-chapter06/chapter06.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.i
-.PHONY : chapter06/chapter06.cpp.i
+base/chapter05/chapter05.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.i
+.PHONY : base/chapter05/chapter05.cpp.i
 
-chapter06/chapter06.s: chapter06/chapter06.cpp.s
+base/chapter05/chapter05.s: base/chapter05/chapter05.cpp.s
 
-.PHONY : chapter06/chapter06.s
+.PHONY : base/chapter05/chapter05.s
 
 # target to generate assembly for a file
-chapter06/chapter06.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.s
-.PHONY : chapter06/chapter06.cpp.s
+base/chapter05/chapter05.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.s
+.PHONY : base/chapter05/chapter05.cpp.s
 
-chapter07/chapter07.o: chapter07/chapter07.cpp.o
+base/chapter06/chapter06.o: base/chapter06/chapter06.cpp.o
 
-.PHONY : chapter07/chapter07.o
+.PHONY : base/chapter06/chapter06.o
 
 # target to build an object file
-chapter07/chapter07.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.o
-.PHONY : chapter07/chapter07.cpp.o
+base/chapter06/chapter06.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.o
+.PHONY : base/chapter06/chapter06.cpp.o
 
-chapter07/chapter07.i: chapter07/chapter07.cpp.i
+base/chapter06/chapter06.i: base/chapter06/chapter06.cpp.i
 
-.PHONY : chapter07/chapter07.i
+.PHONY : base/chapter06/chapter06.i
 
 # target to preprocess a source file
-chapter07/chapter07.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.i
-.PHONY : chapter07/chapter07.cpp.i
+base/chapter06/chapter06.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.i
+.PHONY : base/chapter06/chapter06.cpp.i
 
-chapter07/chapter07.s: chapter07/chapter07.cpp.s
+base/chapter06/chapter06.s: base/chapter06/chapter06.cpp.s
 
-.PHONY : chapter07/chapter07.s
+.PHONY : base/chapter06/chapter06.s
 
 # target to generate assembly for a file
-chapter07/chapter07.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.s
-.PHONY : chapter07/chapter07.cpp.s
+base/chapter06/chapter06.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.s
+.PHONY : base/chapter06/chapter06.cpp.s
 
-chapter08/chapter08.o: chapter08/chapter08.cpp.o
+base/chapter07/chapter07.o: base/chapter07/chapter07.cpp.o
 
-.PHONY : chapter08/chapter08.o
+.PHONY : base/chapter07/chapter07.o
 
 # target to build an object file
-chapter08/chapter08.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.o
-.PHONY : chapter08/chapter08.cpp.o
+base/chapter07/chapter07.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.o
+.PHONY : base/chapter07/chapter07.cpp.o
 
-chapter08/chapter08.i: chapter08/chapter08.cpp.i
+base/chapter07/chapter07.i: base/chapter07/chapter07.cpp.i
 
-.PHONY : chapter08/chapter08.i
+.PHONY : base/chapter07/chapter07.i
 
 # target to preprocess a source file
-chapter08/chapter08.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.i
-.PHONY : chapter08/chapter08.cpp.i
+base/chapter07/chapter07.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.i
+.PHONY : base/chapter07/chapter07.cpp.i
 
-chapter08/chapter08.s: chapter08/chapter08.cpp.s
+base/chapter07/chapter07.s: base/chapter07/chapter07.cpp.s
 
-.PHONY : chapter08/chapter08.s
+.PHONY : base/chapter07/chapter07.s
 
 # target to generate assembly for a file
-chapter08/chapter08.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.s
-.PHONY : chapter08/chapter08.cpp.s
+base/chapter07/chapter07.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.s
+.PHONY : base/chapter07/chapter07.cpp.s
 
-chapter10/chapter10.o: chapter10/chapter10.cpp.o
+base/chapter08/chapter08.o: base/chapter08/chapter08.cpp.o
 
-.PHONY : chapter10/chapter10.o
+.PHONY : base/chapter08/chapter08.o
 
 # target to build an object file
-chapter10/chapter10.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.o
-.PHONY : chapter10/chapter10.cpp.o
+base/chapter08/chapter08.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o
+.PHONY : base/chapter08/chapter08.cpp.o
 
-chapter10/chapter10.i: chapter10/chapter10.cpp.i
+base/chapter08/chapter08.i: base/chapter08/chapter08.cpp.i
 
-.PHONY : chapter10/chapter10.i
+.PHONY : base/chapter08/chapter08.i
 
 # target to preprocess a source file
-chapter10/chapter10.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.i
-.PHONY : chapter10/chapter10.cpp.i
+base/chapter08/chapter08.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.i
+.PHONY : base/chapter08/chapter08.cpp.i
 
-chapter10/chapter10.s: chapter10/chapter10.cpp.s
+base/chapter08/chapter08.s: base/chapter08/chapter08.cpp.s
 
-.PHONY : chapter10/chapter10.s
+.PHONY : base/chapter08/chapter08.s
 
 # target to generate assembly for a file
-chapter10/chapter10.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.s
-.PHONY : chapter10/chapter10.cpp.s
+base/chapter08/chapter08.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.s
+.PHONY : base/chapter08/chapter08.cpp.s
 
-chapter11/chapter11.o: chapter11/chapter11.cpp.o
+base/chapter10/chapter10.o: base/chapter10/chapter10.cpp.o
 
-.PHONY : chapter11/chapter11.o
+.PHONY : base/chapter10/chapter10.o
 
 # target to build an object file
-chapter11/chapter11.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.o
-.PHONY : chapter11/chapter11.cpp.o
+base/chapter10/chapter10.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o
+.PHONY : base/chapter10/chapter10.cpp.o
 
-chapter11/chapter11.i: chapter11/chapter11.cpp.i
+base/chapter10/chapter10.i: base/chapter10/chapter10.cpp.i
 
-.PHONY : chapter11/chapter11.i
+.PHONY : base/chapter10/chapter10.i
 
 # target to preprocess a source file
-chapter11/chapter11.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.i
-.PHONY : chapter11/chapter11.cpp.i
+base/chapter10/chapter10.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.i
+.PHONY : base/chapter10/chapter10.cpp.i
 
-chapter11/chapter11.s: chapter11/chapter11.cpp.s
+base/chapter10/chapter10.s: base/chapter10/chapter10.cpp.s
 
-.PHONY : chapter11/chapter11.s
+.PHONY : base/chapter10/chapter10.s
 
 # target to generate assembly for a file
-chapter11/chapter11.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.s
-.PHONY : chapter11/chapter11.cpp.s
+base/chapter10/chapter10.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.s
+.PHONY : base/chapter10/chapter10.cpp.s
 
-chapter13/chapter13.o: chapter13/chapter13.cpp.o
+base/chapter11/chapter11.o: base/chapter11/chapter11.cpp.o
 
-.PHONY : chapter13/chapter13.o
+.PHONY : base/chapter11/chapter11.o
 
 # target to build an object file
-chapter13/chapter13.cpp.o:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.o
-.PHONY : chapter13/chapter13.cpp.o
+base/chapter11/chapter11.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o
+.PHONY : base/chapter11/chapter11.cpp.o
 
-chapter13/chapter13.i: chapter13/chapter13.cpp.i
+base/chapter11/chapter11.i: base/chapter11/chapter11.cpp.i
 
-.PHONY : chapter13/chapter13.i
+.PHONY : base/chapter11/chapter11.i
 
 # target to preprocess a source file
-chapter13/chapter13.cpp.i:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.i
-.PHONY : chapter13/chapter13.cpp.i
+base/chapter11/chapter11.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.i
+.PHONY : base/chapter11/chapter11.cpp.i
 
-chapter13/chapter13.s: chapter13/chapter13.cpp.s
+base/chapter11/chapter11.s: base/chapter11/chapter11.cpp.s
 
-.PHONY : chapter13/chapter13.s
+.PHONY : base/chapter11/chapter11.s
 
 # target to generate assembly for a file
-chapter13/chapter13.cpp.s:
-	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.s
-.PHONY : chapter13/chapter13.cpp.s
+base/chapter11/chapter11.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.s
+.PHONY : base/chapter11/chapter11.cpp.s
+
+base/chapter13/chapter13.o: base/chapter13/chapter13.cpp.o
+
+.PHONY : base/chapter13/chapter13.o
+
+# target to build an object file
+base/chapter13/chapter13.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o
+.PHONY : base/chapter13/chapter13.cpp.o
+
+base/chapter13/chapter13.i: base/chapter13/chapter13.cpp.i
+
+.PHONY : base/chapter13/chapter13.i
+
+# target to preprocess a source file
+base/chapter13/chapter13.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.i
+.PHONY : base/chapter13/chapter13.cpp.i
+
+base/chapter13/chapter13.s: base/chapter13/chapter13.cpp.s
+
+.PHONY : base/chapter13/chapter13.s
+
+# target to generate assembly for a file
+base/chapter13/chapter13.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.s
+.PHONY : base/chapter13/chapter13.cpp.s
 
 main.o: main.cpp.o
 
@@ -456,39 +456,39 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... c_lanague"
-	@echo "... chapter01/chapter01.o"
-	@echo "... chapter01/chapter01.i"
-	@echo "... chapter01/chapter01.s"
-	@echo "... chapter02/chapter02.o"
-	@echo "... chapter02/chapter02.i"
-	@echo "... chapter02/chapter02.s"
-	@echo "... chapter03/chapter03.o"
-	@echo "... chapter03/chapter03.i"
-	@echo "... chapter03/chapter03.s"
-	@echo "... chapter04/chapter04.o"
-	@echo "... chapter04/chapter04.i"
-	@echo "... chapter04/chapter04.s"
-	@echo "... chapter05/chapter05.o"
-	@echo "... chapter05/chapter05.i"
-	@echo "... chapter05/chapter05.s"
-	@echo "... chapter06/chapter06.o"
-	@echo "... chapter06/chapter06.i"
-	@echo "... chapter06/chapter06.s"
-	@echo "... chapter07/chapter07.o"
-	@echo "... chapter07/chapter07.i"
-	@echo "... chapter07/chapter07.s"
-	@echo "... chapter08/chapter08.o"
-	@echo "... chapter08/chapter08.i"
-	@echo "... chapter08/chapter08.s"
-	@echo "... chapter10/chapter10.o"
-	@echo "... chapter10/chapter10.i"
-	@echo "... chapter10/chapter10.s"
-	@echo "... chapter11/chapter11.o"
-	@echo "... chapter11/chapter11.i"
-	@echo "... chapter11/chapter11.s"
-	@echo "... chapter13/chapter13.o"
-	@echo "... chapter13/chapter13.i"
-	@echo "... chapter13/chapter13.s"
+	@echo "... base/chapter01/chapter01.o"
+	@echo "... base/chapter01/chapter01.i"
+	@echo "... base/chapter01/chapter01.s"
+	@echo "... base/chapter02/chapter02.o"
+	@echo "... base/chapter02/chapter02.i"
+	@echo "... base/chapter02/chapter02.s"
+	@echo "... base/chapter03/chapter03.o"
+	@echo "... base/chapter03/chapter03.i"
+	@echo "... base/chapter03/chapter03.s"
+	@echo "... base/chapter04/chapter04.o"
+	@echo "... base/chapter04/chapter04.i"
+	@echo "... base/chapter04/chapter04.s"
+	@echo "... base/chapter05/chapter05.o"
+	@echo "... base/chapter05/chapter05.i"
+	@echo "... base/chapter05/chapter05.s"
+	@echo "... base/chapter06/chapter06.o"
+	@echo "... base/chapter06/chapter06.i"
+	@echo "... base/chapter06/chapter06.s"
+	@echo "... base/chapter07/chapter07.o"
+	@echo "... base/chapter07/chapter07.i"
+	@echo "... base/chapter07/chapter07.s"
+	@echo "... base/chapter08/chapter08.o"
+	@echo "... base/chapter08/chapter08.i"
+	@echo "... base/chapter08/chapter08.s"
+	@echo "... base/chapter10/chapter10.o"
+	@echo "... base/chapter10/chapter10.i"
+	@echo "... base/chapter10/chapter10.s"
+	@echo "... base/chapter11/chapter11.o"
+	@echo "... base/chapter11/chapter11.i"
+	@echo "... base/chapter11/chapter11.s"
+	@echo "... base/chapter13/chapter13.o"
+	@echo "... base/chapter13/chapter13.i"
+	@echo "... base/chapter13/chapter13.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

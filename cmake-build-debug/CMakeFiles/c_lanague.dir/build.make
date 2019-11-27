@@ -70,179 +70,179 @@ CMakeFiles/c_lanague.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/main.cpp -o CMakeFiles/c_lanague.dir/main.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.o: ../chapter01/chapter01.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter01/chapter01.cpp
+CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.o: ../base/chapter01/chapter01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter01/chapter01.cpp
 
-CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter01/chapter01.cpp > CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter01/chapter01.cpp > CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter01/chapter01.cpp -o CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter01/chapter01.cpp -o CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.o: ../chapter02/chapter02.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter02/chapter02.cpp
+CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.o: ../base/chapter02/chapter02.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter02/chapter02.cpp
 
-CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter02/chapter02.cpp > CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter02/chapter02.cpp > CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter02/chapter02.cpp -o CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter02/chapter02.cpp -o CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.o: ../chapter03/chapter03.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter03/chapter03.cpp
+CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.o: ../base/chapter03/chapter03.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter03/chapter03.cpp
 
-CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter03/chapter03.cpp > CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter03/chapter03.cpp > CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter03/chapter03.cpp -o CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter03/chapter03.cpp -o CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.o: ../chapter04/chapter04.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter04/chapter04.cpp
+CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.o: ../base/chapter04/chapter04.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter04/chapter04.cpp
 
-CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter04/chapter04.cpp > CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter04/chapter04.cpp > CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter04/chapter04.cpp -o CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter04/chapter04.cpp -o CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.o: ../chapter05/chapter05.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter05/chapter05.cpp
+CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.o: ../base/chapter05/chapter05.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter05/chapter05.cpp
 
-CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter05/chapter05.cpp > CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter05/chapter05.cpp > CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter05/chapter05.cpp -o CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter05/chapter05.cpp -o CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.o: ../chapter06/chapter06.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter06/chapter06.cpp
+CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.o: ../base/chapter06/chapter06.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter06/chapter06.cpp
 
-CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter06/chapter06.cpp > CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter06/chapter06.cpp > CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter06/chapter06.cpp -o CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter06/chapter06.cpp -o CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.o: ../chapter07/chapter07.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter07/chapter07.cpp
+CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.o: ../base/chapter07/chapter07.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter07/chapter07.cpp
 
-CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter07/chapter07.cpp > CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter07/chapter07.cpp > CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter07/chapter07.cpp -o CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter07/chapter07.cpp -o CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.o: ../chapter08/chapter08.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter08/chapter08.cpp
+CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o: ../base/chapter08/chapter08.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter08/chapter08.cpp
 
-CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter08/chapter08.cpp > CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter08/chapter08.cpp > CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter08/chapter08.cpp -o CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter08/chapter08.cpp -o CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.o: ../chapter10/chapter10.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter10/chapter10.cpp
+CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o: ../base/chapter10/chapter10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter10/chapter10.cpp
 
-CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter10/chapter10.cpp > CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter10/chapter10.cpp > CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter10/chapter10.cpp -o CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter10/chapter10.cpp -o CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.o: ../chapter11/chapter11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter11/chapter11.cpp
+CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o: ../base/chapter11/chapter11.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter11/chapter11.cpp
 
-CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter11/chapter11.cpp > CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter11/chapter11.cpp > CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter11/chapter11.cpp -o CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter11/chapter11.cpp -o CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.s
 
-CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.o: CMakeFiles/c_lanague.dir/flags.make
-CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.o: ../chapter13/chapter13.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/chapter13/chapter13.cpp
+CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o: ../base/chapter13/chapter13.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/base/chapter13/chapter13.cpp
 
-CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/chapter13/chapter13.cpp > CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.i
+CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/base/chapter13/chapter13.cpp > CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.i
 
-CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/chapter13/chapter13.cpp -o CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.s
+CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter13/chapter13.cpp -o CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.s
 
 # Object files for target c_lanague
 c_lanague_OBJECTS = \
 "CMakeFiles/c_lanague.dir/main.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.o" \
-"CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.o"
+"CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o" \
+"CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o"
 
 # External object files for target c_lanague
 c_lanague_EXTERNAL_OBJECTS =
 
 c_lanague: CMakeFiles/c_lanague.dir/main.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter02/chapter02.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter03/chapter03.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter04/chapter04.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter05/chapter05.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter06/chapter06.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter07/chapter07.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter08/chapter08.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter10/chapter10.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter11/chapter11.cpp.o
-c_lanague: CMakeFiles/c_lanague.dir/chapter13/chapter13.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter01/chapter01.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter02/chapter02.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter03/chapter03.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter04/chapter04.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter05/chapter05.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter06/chapter06.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter07/chapter07.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o
 c_lanague: CMakeFiles/c_lanague.dir/build.make
 c_lanague: CMakeFiles/c_lanague.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable c_lanague"

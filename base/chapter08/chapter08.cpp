@@ -174,15 +174,15 @@ int any_function(int(*pfun)(int, int), int x, int y) {
     return pfun(x, y);
 }
 
-int sum(int x, int y) {
+int sums(int x, int y) {
     return x + y;
 }
 
-int product(int x, int y) {
+int products(int x, int y) {
     return x * y;
 }
 
-int difference(int x, int y) {
+int differences(int x, int y) {
     return x - y;
 }
 
@@ -193,14 +193,14 @@ int chapter0806() {
     int result = 0;
     int(*pfun) (int, int);
 
-    pfun = sum;
+    pfun = sums;
     result = pfun(a, b);
     printf("pfun = sum    result = %2d\n", result);
 
-    pfun = product;
+    pfun = products;
     result = pfun(a, b);
     printf("pfun = product   result = %2d\n", result);
-    pfun = difference;
+    pfun = differences;
     result = pfun(a, b);
     printf("pfun = difference   result = %2d\n", result);
 
@@ -212,11 +212,11 @@ int chapter0807() {
     int a = 10;
     int b = 5;
     int result = 0;
-    int(*pfun[3])(int, int);
+    int (*pfun[3])(int, int);
 
-    pfun[0] = sum;
-    pfun[1] = product;
-    pfun[2] = difference;
+    pfun[0] = sums;
+    pfun[1] = products;
+    pfun[2] = differences;
 
     for (int i = 0; i < 3; i++) {
         result = pfun[i](a, b);
@@ -233,15 +233,15 @@ int chapter0808() {
     int a = 10;
     int b = 5;
     int result = 0;
-    int(*pf) (int, int) = sum;
+    int (*pf)(int, int) = sums;
 
     result = any_function(pf, a, b);
     printf("result = %2d\n", result);
 
-    result = any_function(product, a, b);
+    result = any_function(products, a, b);
     printf("result = %2d\n", result);
 
-    printf("result = %2d\n", any_function(difference, a, b));
+    printf("result = %2d\n", any_function(differences, a, b));
 
     return 0;
 }

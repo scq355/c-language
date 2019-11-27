@@ -13,7 +13,25 @@
   <component name="ChangeListManager">
     <list default="true" id="9a7005f1-17e1-4b1e-a73b-6fa552b14ec5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter05/chapter05.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter05/chapter05.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter06/chapter06.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter06/chapter06.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter06/chapter06.h" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter06/chapter06.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter07/chapter07.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter07/chapter07.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter08/chapter08.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter08/chapter08.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter10/chapter10.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter10/chapter10.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/chapter01/chapter01.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_lanague" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_lanague" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_lanague.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_lanague.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <list id="daa403c0-4842-41aa-b79c-9766a712d9ff" name=".idea文件忽略" comment=".idea文件忽略" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +62,17 @@
       </set>
     </option>
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1Tgjul4Eow5KH1aTx75uwoNrmtr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,7 +90,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
+    <property name="settings.editor.selected.configurable" value="net.zero9178.cov.window.SettingsWindowImpl" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/base" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="c_lanague" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_lanague" TARGET_NAME="c_lanague" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_lanague" RUN_TARGET_NAME="c_lanague">
@@ -94,7 +128,11 @@
       <option name="presentableId" value="Default" />
       <updated>1573888857995</updated>
       <workItem from="1573888859702" duration="4342000" />
-      <workItem from="1573893326439" duration="1128000" />
+      <workItem from="1573893326439" duration="1377000" />
+      <workItem from="1573961294541" duration="642000" />
+      <workItem from="1574586422505" duration="1422000" />
+      <workItem from="1574777033425" duration="1047000" />
+      <workItem from="1574835770588" duration="9546000" />
     </task>
     <task id="LOCAL-00001" summary=".idea文件忽略">
       <created>1573893020994</created>
@@ -124,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573893646584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="README.md">
+      <created>1573894475038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573894475038</updated>
+    </task>
+    <task id="LOCAL-00006" summary="目录结构划分">
+      <created>1573894696736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573894696736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,74 +198,92 @@
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="1" />
     <MESSAGE value=".idea文件忽略" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea文件忽略" />
+    <MESSAGE value="README.md" />
+    <MESSAGE value="目录结构划分" />
+    <option name="LAST_COMMIT_MESSAGE" value="目录结构划分" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1573893674147">
+    <state x="320" y="115" key="#Inspections" timestamp="1574836882418">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1573893674147" />
-    <state x="303" y="51" key="CommitChangelistDialog2" timestamp="1573894474910">
+    <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1574836882418" />
+    <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1574586645868">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1573894474910" />
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1573893539881">
+    <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1574586645868" />
+    <state x="608" y="160" width="472" height="579" key="#xdebugger.evaluate" timestamp="1574837214285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1573893539881" />
+    <state x="608" y="160" width="472" height="579" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1574837214285" />
+    <state x="285" y="51" key="CommitChangelistDialog2" timestamp="1573894696549">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="285" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1573894696549" />
+    <state width="469" height="466" key="DebuggerActiveHint" timestamp="1574846277449">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="469" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1574846277449" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1574777461381">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1574777461381" />
     <state x="523" y="373" key="Github.CreateGistDialog" timestamp="1573892300085">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="523" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1573892300085" />
-    <state width="699" height="303" key="GridCell.Tab.0.bottom" timestamp="1573893310547">
+    <state width="1398" height="356" key="GridCell.Tab.0.bottom" timestamp="1574846531375">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1573893310547" />
-    <state width="699" height="303" key="GridCell.Tab.0.center" timestamp="1573893310546">
+    <state width="1398" height="356" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1574846531375" />
+    <state width="1398" height="356" key="GridCell.Tab.0.center" timestamp="1574846531374">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1573893310546" />
-    <state width="699" height="303" key="GridCell.Tab.0.left" timestamp="1573893310546">
+    <state width="1398" height="356" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1574846531374" />
+    <state width="1398" height="356" key="GridCell.Tab.0.left" timestamp="1574846531373">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1573893310546" />
-    <state width="699" height="303" key="GridCell.Tab.0.right" timestamp="1573893310547">
+    <state width="1398" height="356" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1574846531373" />
+    <state width="1398" height="356" key="GridCell.Tab.0.right" timestamp="1574846531374">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1573893310547" />
-    <state width="699" height="303" key="GridCell.Tab.1.bottom" timestamp="1573893310549">
+    <state width="1398" height="356" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1574846531374" />
+    <state width="1398" height="356" key="GridCell.Tab.1.bottom" timestamp="1574846531281">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1573893310549" />
-    <state width="699" height="303" key="GridCell.Tab.1.center" timestamp="1573893310548">
+    <state width="1398" height="356" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1574846531281" />
+    <state width="1398" height="356" key="GridCell.Tab.1.center" timestamp="1574846531280">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1573893310548" />
-    <state width="699" height="303" key="GridCell.Tab.1.left" timestamp="1573893310548">
+    <state width="1398" height="356" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1574846531280" />
+    <state width="1398" height="356" key="GridCell.Tab.1.left" timestamp="1574846531279">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1573893310548" />
-    <state width="699" height="303" key="GridCell.Tab.1.right" timestamp="1573893310549">
+    <state width="1398" height="356" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1574846531279" />
+    <state width="1398" height="356" key="GridCell.Tab.1.right" timestamp="1574846531280">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1573893310549" />
+    <state width="1398" height="356" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1574846531280" />
     <state x="431" y="173" key="MultipleFileMergeDialog" timestamp="1573893587930">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="431" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1573893587930" />
-    <state x="253" y="82" key="SettingsEditor" timestamp="1573892897108">
+    <state x="0" y="23" width="1440" height="824" key="SettingsEditor" timestamp="1574840587755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="82" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1573892897108" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1573894476649">
+    <state x="0" y="23" width="1440" height="824" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1574840587755" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1573894698639">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1573894476649" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1573894698639" />
     <state x="509" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1573893527771">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="509" y="191" key="VcsDiffUtil.ChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1573893527771" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1574835772055">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1574835772055" />
     <state x="415" y="248" key="git4idea.merge.GitPullDialog" timestamp="1573893479700">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -222,5 +292,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1573892920380" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1574777671799">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1574777671799" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/base/chapter05/chapter05.cpp</url>
+          <line>172</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="sizeof(str)" language="ObjectiveC" />
+        <watch expression="sizeof(str[0])" language="ObjectiveC" />
+        <watch expression="str[i][count]" language="ObjectiveC" />
+        <watch expression="strchr(pGot_chars, ch)" language="ObjectiveC" />
+        <watch expression="++pGot_chars" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -28,7 +28,7 @@ void try_input(char *prompt, char *format) {
     char word1[SIZE] = " ";
     char word2[SIZE] = " ";
     int byte_count = 0;
-    printf(prompt);
+    printf("%s", prompt);
     value_count = scanf(format, &fp1, &i, &j, word1, sizeof(word1), word2, sizeof(word2), &byte_count);
     fflush(stdin);
     printf("The input format string for scanf() is:\n \"%s\"\n", format);
@@ -92,10 +92,10 @@ int chapter1005() {
     char age[40] = { '0' };
 
     printf("Enter your first initial: ");
-    scanf("%c", &initial, sizeof(initial));
+    scanf("%c", &initial);
 
     printf("Enter your first name: ");
-    scanf("%s", name, sizeof(name));
+    scanf("%s", name);
 
     fflush(stdin);
 
@@ -104,7 +104,7 @@ int chapter1005() {
     } else {
         printf("Hi, %s.Your initial is corrent. Well done!\n", name);
         printf("Enter your full name and your age sparated by a comma:\n");
-        scanf("%[^,], %[0123456789]", name, sizeof(name), age, sizeof(age));
+//        scanf("%[^,], %[0123456789]", name, sizeof(name), age, sizeof(age));
         printf("\nYour name is %s and you are %s years old.\n", name, age);
     }
 
@@ -184,7 +184,7 @@ char* getname(char *name, size_t length) {
     char ch = 0;
     while (isalpha(ch = (char)getchar())) {
         name[count++] = ch;
-        if (count = length - 1) {
+        if (count == length - 1) {
             break;
         }
     }
@@ -221,7 +221,7 @@ int chapter1008() {
     printf("i = %-d   j = %+d   k = %-d   i = %-6.3d   j = %-6.3d   k = %-6.3d\n",
              i, j, k, i, j, k);
 
-    printf("li = %d   lj = %d   lk = %d\n", li, lj, lk);
+    printf("li = %lld   lj = %lld   lk = %lld\n", li, lj, lk);
 
     printf("li = %lld   lj = %lld   lk = %lld\n", li, lj, lk);
 
