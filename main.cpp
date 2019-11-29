@@ -44,8 +44,11 @@ int main() {
 //    chapter0605_cpy_cat();
 //    chapter0605_combine();
 //    chapter0606();
+//    chapter0606_chr();
 //    chapter0607();
-    chapter0606_chr();
+//    chapter0607_strtock();
+//    chapter0608();
+    chapter0609();
 
 //    // 第七章 指针
 //    chapter0712();

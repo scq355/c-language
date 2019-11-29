@@ -35,6 +35,8 @@ int chapter0606_chr(void);
 
 int chapter0607(void);
 
+int chapter0607_strtock(void);
+
 int chapter0608(void);
 
 int chapter0609(void);

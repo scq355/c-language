@@ -194,7 +194,7 @@ int chapter0606() {
     return 0;
 }
 
-// 在字符串中搜索字符
+// 在字符串中搜索字符：strchr()
 int chapter0606_chr() {
     char str1[] = "The quick brown fox";
     char ch = 'q';
@@ -217,7 +217,7 @@ int chapter0606_chr() {
     return 0;
 }
 
-// 在字符串中查找子串
+// 在字符串中查找子串:strstr()
 int chapter0607() {
     char str1[] = "This string contains the holy girl";
     char str2[] = "the holy girl";
@@ -236,48 +236,107 @@ int chapter0607() {
     return 0;
 }
 
+// 单元化字符串：strtok()
+// TODO: strtok(), strtok_s()的参数、区别
+int chapter0607_strtock() {
+    // 文本分隔符，输入缓冲区字符串，数据存储字符串，指针，终止符
+    char delimiters[] = "\".,;:!?()";
+    char buf[100];
+    char str[1000];
+    char *ptr = NULL;
+    str[0] = '\0';
+
+    size_t str_len = sizeof(str);
+    size_t buf_len = sizeof(buf);
+    printf("Enter some prose that is less than %zd characters.\n"
+           "Terminate input by entering an empty line:\n", str_len);
+
+    while (true) {
+        // 输入一行字符串，存放在buf字符数组（缓冲区）
+        if (!gets(buf)) {
+            printf("Error reading string.\n");
+            return 1;
+        }
+        // 输入的字符串为空的话停止迭代输入
+        if (!strlen(buf)) {
+            break;
+        }
+        // 将缓冲区的字符串拼接在str字符串后面，str为累计输入的最终字符串
+        if (!strcat(str, buf)) {
+            printf("Maximum permitted input length exceeded.\n");
+            return 1;
+        }
+    } // 需要输入的多行字符串输入完毕
+
+    printf("The words in prose that you entered are: %s\n", str);
+
+    // 分割统计
+    unsigned int word_count = 0;
+    // 返回被分解的第一个子字符串，如果没有可检索的字符串，则返回一个空指针
+    // 找到第一个字符串
+    char *pWord = strtok(str, delimiters);
+    if (pWord) {
+        do {
+            printf("%-18s", pWord);
+            if (++word_count % 5 == 0) {
+                printf("\n");
+            }
+            pWord = strtok(NULL, delimiters);
+        } while (pWord);
+        printf("\n%u words found.\n", word_count);
+    } else {
+        printf("No words found.\n");
+    }
+
+    return 0;
+}
+
+// 字符分类函数：isalpha(), isdigit(), ispunct()
 int chapter0608() {
+    // 输入的字符串，字母数，数字数，标点符号数
     char buf[BUF_SIZE];
     int nLetters = 0;
     int nDigits = 0;
     int nPunct = 0;
-
+    // 输入字符串
     printf("Enter an interesting string of less than %d characters:\n", BUF_SIZE);
-//    if (!gets_s(buf, sizeof(buf))) {
-//        printf("Error reading string.\n");
-//        return 1;
-//    }
+    if (!gets(buf)) {
+        printf("Error reading string.\n");
+        return 1;
+    }
     size_t i = 0;
+    // 遍历字符数组并分类
     while (buf[i]) {
         if (isalpha(buf[i])) {
             ++nLetters;
-        } else if(isdigit(buf[i])) {
+        } else if (isdigit(buf[i])) {
             ++nDigits;
         } else if (ispunct(buf[i])) {
             ++nPunct;
         }
         ++i;
     }
-    printf("\n Your string contained %d lettere, %d digits and %d puncation characters.\n", nLetters, nDigits, nPunct);
+    printf("\n Your string contained %d 字母, %d 数字 and %d 标点符号.\n", nLetters, nDigits, nPunct);
     return 0;
 }
 
+// 转换字符：大小写形式转换
 int chapter0609() {
     char text[TEXT_LEN];
     char substring[SUBSTR_LEN];
-
+    // 第一个字符串
     printf("Enter the string to be searched(less than %d characters):\n", TEXT_LEN);
-//    gets(text, TEXT_LEN);
-
+    gets(text);
+    // 第二个字符串
     printf("\nEnter the string sought (less than %d characters):\n", SUBSTR_LEN);
-//    gets(substring, SUBSTR_LEN);
+    gets(substring);
 
     printf("\nFirst string entered:\n%s\n", text);
     printf("Second string entered:\n%s\n", substring);
-
-    for (int i = 0; (text[i] = toupper(text[i]) != '\0'); ++i);
+    // 全部转为大写形式
+    for (int i = 0; (text[i] = toupper(text[i])) != '\0'; ++i);
     for (int i = 0; (substring[i] = toupper(substring[i])) != '\0'; ++i);
-
+    // 子串查找
     printf("The second string %s found in the first.\n", (strstr(text, substring) == NULL) ? "was not" : "was");
     return 0;
 }
