@@ -13,6 +13,8 @@
 #define __STDC_WANT_LIB_EXIT__ 1
 #define CAP_INCR 10
 
+int chapter0701(void);
+
 int chapter0702(void);
 int chapter0703(void);
 int chapter0704(void);
