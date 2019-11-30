@@ -4,6 +4,7 @@
 
 #include "chapter08.h"
 
+// 作用域
 int chapter0801() {
     int count = 1;
     do {
@@ -16,6 +17,7 @@ int chapter0801() {
     return 0;
 }
 
+// 作用域
 int chapter0802() {
     int count = 0;
     do {
@@ -28,7 +30,6 @@ int chapter0802() {
     return 0;
 }
 
-/*
 double sum(double x[], size_t n) {
 	double sum = 0;
 	for (int i = 0; i < n; i++) {
@@ -37,67 +38,65 @@ double sum(double x[], size_t n) {
 	return sum;
 }
 
-double average(double x[], size_t n) {
-	return sum(x, n) / n;
+double Average(double x[], size_t n) {
+    return sum(x, n) / n;
 }
 
-size_t getData(double *data, size_t max_count t) {
-	size_t nValues = 0;
-	printf("How many values do you want to enter (Maximum %zd)?", max_count);
-	scanf("%zd", &nValues);
-	if (nValues > max_count) {
-		printf("Maximum count exceeded. %zd items will be read.", max_count);
-		nValues = max_count;
-	}
-	for (size_t i = 0; i < nValues; i++) {
-		scanf("%lf", &data[i]);
-	}
+size_t getData(double *data, size_t max_count) {
+    size_t nValues = 0;
+    printf("How many values do you want to enter (Maximum %zd)?", max_count);
+    scanf("%zd", &nValues);
+    if (nValues > max_count) {
+        printf("Maximum count exceeded. %zd items will be read.", max_count);
+        nValues = max_count;
+    }
+    for (size_t i = 0; i < nValues; i++) {
+        scanf("%lf", &data[i]);
+    }
 
 	return nValues;
 }
-*/
 
-
-/*
 char* str_in(void) {
-	char buf[BUF_LEN];
-	if (!gets_s(buf, BUF_LEN)) {
-		printf("\nError reading string.\n");
-		return NULL;
-	}
-	if (buf[0] == '\0') {
-		return NULL;
-	}
+    char buf[BUF_LEN];
+    // 输入一行字符串，讲字符串存储到字符串数组中
+    if (!gets(buf)) {
+        printf("\nError reading string.\n");
+        return NULL;
+    }
+    if (buf[0] == '\0') {
+        return NULL;
+    }
+    // 将字符串移动到指定的一块内存空间中，并且返回该内存的起始位置
+    size_t str_len = strnlen(buf, BUF_LEN) + 1;
+    char *pString = (char *) malloc(str_len);
 
-	size_t str_len = strnlen_s(buf, BUF_LEN) + 1;
-	char *pString = (char*) malloc(str_len);
+    if (!pString) {
+        printf("Memory allocation failure.\n");
+        return NULL;
+    }
 
-	if (!pString) {
-		printf("Memory allocation failure.\n");
-		return NULL;
-	}
-
-	strcpy_s(pString, str_len, buf);
-	return pString;
+    strcpy(pString, buf);
+    return pString;
 }
 
-void str_sort(const char** p, size_t n) {
-	bool sorted = false;
-	while (!sorted) {
-		sorted = true;
-		for (int i = 0; i < n - 1; i++) {
-			if (strcmp(p[i], p[i + 1]) > 0) {
-				sorted = false;
-				swap(&p[i], &p[i + 1]);
-			}
-		}
-	}
+void swap(const char **p1, const char **p2) {
+    const char *pT = *p1;
+    *p1 = *p2;
+    *p2 = pT;
 }
 
-void swap(const char** p1, const char** p2) {
-	const char *pT = *p1;
-	*p1 = *p2;
-	*p2 = pT;
+void str_sort(char **p, size_t n) {
+    bool sorted = false;
+    while (!sorted) {
+        sorted = true;
+        for (int i = 0; i < n - 1; i++) {
+            if (strcmp(p[i], p[i + 1]) > 0) {
+                sorted = false;
+//				swap(&p[i], &p[i + 1]);
+            }
+        }
+    }
 }
 
 void str_out(const char* const* pStr, size_t n) {
@@ -116,39 +115,49 @@ void free_memory(char **ps, size_t n) {
 	ps = NULL;
 }
 
+// 使用函数
+int chapter0803() {
+    double samples[MAX_COUNT] = {0.0};
 
-int chapter0804() {
-	size_t ps_size = INIT_NSTR;
-	char **ps =(char**) calloc(ps_size, sizeof(char*));
-	if (!ps) {
-		printf("Failed to allocate memory for string pointers. \n");
-		exit(1);
-	}
+    size_t sampleCount = getData(samples, MAX_COUNT);
+    double average = Average(samples, sampleCount);
+    printf("The average of the values you entered is %.2lf\n", average);
 
-	char **pTemp = NULL;
-	
-	size_t str_count = 0;
-	char *pStr = NULL;
-	printf("Enter one string per line. Press Enter to end:\n");
-	while ((pStr = str_in()) != NULL) {
-		if (str_count == ps_size) {
-			ps_size += NSTR_INCR;
-			if (!(pTemp = realloc(ps, ps_size * sizeof(char*)))) {
-				printf("Memory allocation for array of strings failed.\n");
-				return 2;
-			}
-			ps = pTemp;
-		}
-		ps[str_count++] = pStr;
-	}
-
-	str_sort(ps, str_count);
-	str_out(ps, str_count);
-	free_memory(ps, str_count);
-
-	return 0;
+    return 0;
 }
-*/
+
+// 使用指针传输数据
+int chapter0804() {
+    size_t ps_size = INIT_NSTR;
+    char **ps = (char **) calloc(ps_size, sizeof(char *));
+    if (!ps) {
+        printf("Failed to allocate memory for string pointers. \n");
+        exit(1);
+    }
+
+    char **pTemp = NULL;
+
+    size_t str_count = 0;
+    char *pStr = NULL;
+    printf("Enter one string per line. Press Enter to end:\n");
+    while ((pStr = str_in()) != NULL) {
+        if (str_count == ps_size) {
+            ps_size += NSTR_INCR;
+            if (!(pTemp = static_cast<char **>(realloc(ps, ps_size * sizeof(char *))))) {
+                printf("Memory allocation for array of strings failed.\n");
+                return 2;
+            }
+            ps = pTemp;
+        }
+        ps[str_count++] = pStr;
+    }
+
+    str_sort(ps, str_count);
+    str_out(ps, str_count);
+    free_memory(ps, str_count);
+
+    return 0;
+}
 
 
 long *incomePlus(long *pPay) {

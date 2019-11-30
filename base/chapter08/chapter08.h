@@ -19,14 +19,27 @@
 #define NSTR_INCR 2
 
 int chapter0801(void);
-int	chapter0802(void);
+
+int chapter0802(void);
+
+int chapter0803(void);
+
+int chapter0804(void);
+
 int chapter0805(void);
+
 int chapter0806(void);
+
 int chapter0807(void);
+
 int chapter0808(void);
+
 int chapter0809(void);
+
 int chapter0810(void);
+
 int chapter0811(void);
+
 int chapter0812(void);
 
 #endif //C_LANAGUE_CHAPTER08_H

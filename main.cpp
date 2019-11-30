@@ -7,8 +7,8 @@
 //#include "base/chapter04/chapter04.h"
 //#include "base/chapter05/chapter05.h"
 //#include "base/chapter06/chapter06.h"
-#include "base/chapter07/chapter07.h"
-//#include "base/chapter08/chapter08.h"
+//#include "base/chapter07/chapter07.h"
+#include "base/chapter08/chapter08.h"
 //#include "base/chapter10/chapter10.h"
 //#include "base/chapter11/chapter11.h"
 //#include "base/chapter13/chapter13.h"
@@ -62,11 +62,13 @@ int main() {
 //    chapter0712();
 //    chapter0713();
 //    chapter0713_pointer_string();
-    chapter0714();
+//    chapter0714();
 
     // 第八章 编程结构
 //	chapter0801();
 //	chapter0802();
+//  chapter0803();
+    chapter0804();
 
 //	double samples[MAX_COUNT] = { 0.0 };
 //	size_t sampleCount = getData(samples, MAX_COUNT);
