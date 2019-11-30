@@ -165,6 +165,7 @@ long *incomePlus(long *pPay) {
     return pPay;
 }
 
+// 从函数中返回数值
 int chapter0805() {
     long your_pay = 30000L;
     long *pold_pay = &your_pay;

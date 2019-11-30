@@ -68,16 +68,10 @@ int main() {
 //	chapter0801();
 //	chapter0802();
 //  chapter0803();
-    chapter0804();
-
-//	double samples[MAX_COUNT] = { 0.0 };
-//	size_t sampleCount = getData(samples, MAX_COUNT);
-//	double averageValu = average(samples, sampleCount);
-//	printf("The average of the values you entered is: %.2lf\n", average);
-
 //	chapter0804();
-//	chapter0805();
+    chapter0805();
 
+    // 第九章 函数再探
 //	chapter0806();
 //	chapter0807();
 //	chapter0808();
@@ -86,7 +80,7 @@ int main() {
 //	chapter0811();
 //    chapter0812();
 //
-//    // 第九章 函数再探
+
 //
 //    // 第十章 基本输入和输出操作
 //    chapter1011();
