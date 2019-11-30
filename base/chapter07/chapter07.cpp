@@ -4,6 +4,11 @@
 
 #include "chapter07.h"
 
+#define STR_COUNT 10
+#define BUF_LEN 100
+#define INIT_STR_EXT 50
+#define WORDS_INCR 5
+
 // 声明指针
 int chapter0701() {
     int number = 0;
@@ -258,5 +263,59 @@ int chapter0712() {
     // 释放内存
     free(pPrimes);
     pPrimes = NULL;
+    return 0;
+}
+
+
+// 指针处理字符串
+int chapter0713() {
+    const size_t BUF_SIZE = 100;
+    char buffer[BUF_SIZE];
+/*
+ * scanf 输入时，系统将空格作为输入字符串之间的分隔符。
+ * 也就是说，只要一“敲”空格，系统就认为当前的字符串已经结束，
+ * 接下来输入的是下一个字符串，所以只会将空格之前的字符串存储到定义好的字符数组中
+ * */
+//    scanf("%s", buffer);
+    gets(buffer);
+
+    size_t length = strnlen(buffer, BUF_SIZE) + 1;
+    char *pString = static_cast<char *>(malloc(length));
+    if (!pString) {
+        printf("Memory allocation failed!\n");
+        return 1;
+    }
+    strcpy(pString, buffer);
+    printf("%s", pString);
+    free(pString);
+    pString = NULL;
+
+    return 0;
+}
+
+// 使用指针数组
+int chapter0713_pointer_string() {
+    const size_t BUF_SIZE = 100;
+    char buffer[BUF_SIZE];
+    char *pS[STR_COUNT] = {NULL};
+    size_t str_size = 0;
+
+    for (size_t i = 0; i < STR_COUNT; ++i) {
+//        scanf("%s", buffer);
+        gets(buffer);
+        str_size = strnlen(buffer, BUF_SIZE) + 1;
+        pS[i] = static_cast<char *>(malloc(str_size));
+        if (!pS[i]) {
+            return 1;
+        }
+        strcpy(pS[i], buffer);
+    }
+
+    for (int j = 0; j < STR_COUNT; ++j) {
+        printf("%s\n", pS[j]);
+        free(pS[j]);
+        pS[j] = NULL;
+    }
+
     return 0;
 }

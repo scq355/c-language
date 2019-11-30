@@ -16,12 +16,25 @@
 int chapter0701(void);
 
 int chapter0702(void);
+
 int chapter0703(void);
+
 int chapter0704(void);
+
 int chapter0705(void);
+
 int chapter0706(void);
+
 int chapter0707(void);
+
 int chapter0711(void);
+
 int chapter0712(void);
+
+int chapter0713(void);
+
+int chapter0713_pointer_string(void);
+
+int chapter0714(void);
 
 #endif //C_LANAGUE_CHAPTER07_H

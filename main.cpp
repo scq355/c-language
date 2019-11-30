@@ -6,8 +6,8 @@
 //#include "base/chapter03/chapter03.h"
 //#include "base/chapter04/chapter04.h"
 //#include "base/chapter05/chapter05.h"
-#include "base/chapter06/chapter06.h"
-//#include "base/chapter07/chapter07.h"
+//#include "base/chapter06/chapter06.h"
+#include "base/chapter07/chapter07.h"
 //#include "base/chapter08/chapter08.h"
 //#include "base/chapter10/chapter10.h"
 //#include "base/chapter11/chapter11.h"
@@ -48,10 +48,21 @@ int main() {
 //    chapter0607();
 //    chapter0607_strtock();
 //    chapter0608();
-    chapter0609();
+//    chapter0609();
 
 //    // 第七章 指针
+//    chapter0701();
+//    chapter0702();
+//    chapter0703();
+//    chapter0704();
+//    chapter0705();
+//    chapter0706();
+//    chapter0707();
+//    chapter0711();
 //    chapter0712();
+//    chapter0713();
+//    chapter0713_pointer_string();
+    chapter0714();
 
     // 第八章 编程结构
 //	chapter0801();
