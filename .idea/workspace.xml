@@ -14,8 +14,7 @@
     <list default="true" id="9a7005f1-17e1-4b1e-a73b-6fa552b14ec5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/chapter08/chapter08.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter08/chapter08.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_lanague" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_lanague" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter08/chapter08.h" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter08/chapter08.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <list id="daa403c0-4842-41aa-b79c-9766a712d9ff" name=".idea文件忽略" comment=".idea文件忽略" />
@@ -117,7 +116,7 @@
       <workItem from="1573961294541" duration="642000" />
       <workItem from="1574586422505" duration="1422000" />
       <workItem from="1574777033425" duration="1047000" />
-      <workItem from="1574835770588" duration="29220000" />
+      <workItem from="1574835770588" duration="30237000" />
     </task>
     <task id="LOCAL-00001" summary=".idea文件忽略">
       <created>1573893020994</created>
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575107390419</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="第八章：程序结构（使用指针传输数据）">
+      <created>1575108075549</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575108075549</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,10 +247,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="608" y="160" width="472" height="579" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1575016727103" />
-    <state x="285" y="51" key="CommitChangelistDialog2" timestamp="1575107390154">
+    <state x="285" y="51" key="CommitChangelistDialog2" timestamp="1575108075382">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575107390154" />
+    <state x="285" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575108075382" />
     <state width="469" height="466" key="DebuggerActiveHint" timestamp="1575100916511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -257,38 +263,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="523" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1573892300085" />
-    <state width="1398" height="98" key="GridCell.Tab.0.bottom" timestamp="1575108028378">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1575108354252">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="98" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575108028378" />
-    <state width="1398" height="98" key="GridCell.Tab.0.center" timestamp="1575108028378">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575108354252" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1575108354251">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="98" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575108028378" />
-    <state width="1398" height="98" key="GridCell.Tab.0.left" timestamp="1575108028377">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575108354251" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1575108354250">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="98" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575108028377" />
-    <state width="1398" height="98" key="GridCell.Tab.0.right" timestamp="1575108028378">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575108354250" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1575108354251">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="98" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575108028378" />
-    <state width="1398" height="98" key="GridCell.Tab.1.bottom" timestamp="1575108028311">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575108354251" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1575108354254">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="98" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575108028311" />
-    <state width="1398" height="98" key="GridCell.Tab.1.center" timestamp="1575108028310">
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575108354254" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1575108354253">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="98" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575108028310" />
-    <state width="1398" height="98" key="GridCell.Tab.1.left" timestamp="1575108028309">
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575108354253" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1575108354252">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="98" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575108028309" />
-    <state width="1398" height="98" key="GridCell.Tab.1.right" timestamp="1575108028310">
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575108354252" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1575108354253">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="98" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575108028310" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575108354253" />
     <state x="308" y="200" key="IDE.errors.dialog" timestamp="1574857585483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -301,10 +307,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="23" width="1440" height="824" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1574840587755" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575107392266">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575108077619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575107392266" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575108077619" />
     <state x="509" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1573893527771">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

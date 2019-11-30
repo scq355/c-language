@@ -69,10 +69,10 @@ int main() {
 //	chapter0802();
 //  chapter0803();
 //	chapter0804();
-    chapter0805();
+//  chapter0805();
 
     // 第九章 函数再探
-//	chapter0806();
+    chapter0806();
 //	chapter0807();
 //	chapter0808();
 //	chapter0809();

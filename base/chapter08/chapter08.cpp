@@ -4,60 +4,7 @@
 
 #include "chapter08.h"
 
-// 作用域
-int chapter0801() {
-    int count = 1;
-    do {
-        int count1 = 0;
-        ++count1;
-        printf("count = %d count1 = %d\n", count, count1);
-    } while (++count <= 5);
-
-    printf("count = %d\n", count);
-    return 0;
-}
-
-// 作用域
-int chapter0802() {
-    int count = 0;
-    do {
-        int count = 0;
-        ++count;
-        printf("count = %d\n", count);
-    } while (++count <= 5);
-
-    printf("count = %d\n", count);
-    return 0;
-}
-
-double sum(double x[], size_t n) {
-	double sum = 0;
-	for (int i = 0; i < n; i++) {
-		sum += x[i];
-	}
-	return sum;
-}
-
-double Average(double x[], size_t n) {
-    return sum(x, n) / n;
-}
-
-size_t getData(double *data, size_t max_count) {
-    size_t nValues = 0;
-    printf("How many values do you want to enter (Maximum %zd)?", max_count);
-    scanf("%zd", &nValues);
-    if (nValues > max_count) {
-        printf("Maximum count exceeded. %zd items will be read.", max_count);
-        nValues = max_count;
-    }
-    for (size_t i = 0; i < nValues; i++) {
-        scanf("%lf", &data[i]);
-    }
-
-	return nValues;
-}
-
-char* str_in(void) {
+char *str_in() {
     char buf[BUF_LEN];
     // 输入一行字符串，讲字符串存储到字符串数组中
     if (!gets(buf)) {
@@ -86,33 +33,86 @@ void swap(const char **p1, const char **p2) {
     *p2 = pT;
 }
 
-void str_sort(char **p, size_t n) {
+void str_sort(const char **p, size_t n) {
     bool sorted = false;
     while (!sorted) {
         sorted = true;
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n - 1; ++i) {
             if (strcmp(p[i], p[i + 1]) > 0) {
                 sorted = false;
-//				swap(&p[i], &p[i + 1]);
+                swap(&p[i], &p[i + 1]);
             }
         }
     }
 }
 
-void str_out(const char* const* pStr, size_t n) {
-	printf("The sorted strings are:\n");
-	for (int i = 0; i < n; i++) {
-		printf("%s\n", pStr[i]);
-	}
+void str_out(const char *const *pStr, size_t n) {
+    printf("The sorted strings are:\n");
+    for (size_t i = 0; i < n; ++i) {
+        printf("%s\n", pStr[i]);
+    }
 }
 
-void free_memory(char **ps, size_t n) {
-	for (size_t i = 0; i < n; i++) {
-		free(ps[i]);
-		ps[i] = NULL;
-	}
-	free(ps);
-	ps = NULL;
+void free_memory(char **pS, size_t n) {
+    for (size_t i = 0; i < n; ++i) {
+        free(pS[i]);
+        pS[i] = NULL;
+    }
+    free(pS);
+    pS = NULL;
+}
+
+// 作用域
+int chapter0801() {
+    int count = 1;
+    do {
+        int count1 = 0;
+        ++count1;
+        printf("count = %d count1 = %d\n", count, count1);
+    } while (++count <= 5);
+
+    printf("count = %d\n", count);
+    return 0;
+}
+
+// 作用域
+int chapter0802() {
+    int count = 0;
+    do {
+        int count = 0;
+        ++count;
+        printf("count = %d\n", count);
+    } while (++count <= 5);
+
+    printf("count = %d\n", count);
+    return 0;
+}
+
+double sum(double x[], size_t n) {
+    double sum = 0;
+    for (int i = 0; i < n; i++) {
+        sum += x[i];
+    }
+    return sum;
+}
+
+double Average(double x[], size_t n) {
+    return sum(x, n) / n;
+}
+
+size_t getData(double *data, size_t max_count) {
+    size_t nValues = 0;
+    printf("How many values do you want to enter (Maximum %zd)?", max_count);
+    scanf("%zd", &nValues);
+    if (nValues > max_count) {
+        printf("Maximum count exceeded. %zd items will be read.", max_count);
+        nValues = max_count;
+    }
+    for (size_t i = 0; i < nValues; i++) {
+        scanf("%lf", &data[i]);
+    }
+
+    return nValues;
 }
 
 // 使用函数
@@ -134,7 +134,6 @@ int chapter0804() {
         printf("Failed to allocate memory for string pointers. \n");
         exit(1);
     }
-
     char **pTemp = NULL;
 
     size_t str_count = 0;
@@ -152,7 +151,7 @@ int chapter0804() {
         ps[str_count++] = pStr;
     }
 
-    str_sort(ps, str_count);
+//    TODO: str_sort(ps, str_count);
     str_out(ps, str_count);
     free_memory(ps, str_count);
 
@@ -201,7 +200,7 @@ int chapter0806() {
     int a = 10;
     int b = 5;
     int result = 0;
-    int(*pfun) (int, int);
+    int (*pfun)(int, int);
 
     pfun = sums;
     result = pfun(a, b);
@@ -346,7 +345,7 @@ int chapter0812() {
 
     printf("Average = %.2lf\n", average(v1, 3.5, v2, 4.5, 0, 0));
     printf("Average = %.2lf\n", average(1.0, 2.0, 0.0));
-    printf("Average = %.2lf\n", average((double)num2, v2, (double)num1, (double)num4, (double)num3, 0.0));
+    printf("Average = %.2lf\n", average((double) num2, v2, (double) num1, (double) num4, (double) num3, 0.0));
 
     return 0;
 }
