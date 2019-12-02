@@ -9,22 +9,30 @@ typedef struct Horsee horsee;
 typedef struct Family family;
 typedef struct Node Node;
 
-typedef union  UDate UDate;
+typedef union UDate UDate;
 typedef struct Dates Dates;
 typedef struct MixedDate MixedDate;
 typedef struct NumbericDate NumbericDate;
 
 Family *get_person(void);
+
 void show_people(bool forwards, Family *pfirst, Family *plast);
+
 void release_memory(Family *pfirst);
 
 Node *create_node(long value);
+
 Node *add_node(long value, Node *pNode);
+
 void list_nodes(Node *pNode);
+
 void free_nodes(Node *pNode);
 
-void print_date(const Dates* date);
-enum Date_Format { numberic, text, mixed };
+void print_date(const Dates *date);
+
+enum Date_Format {
+    numberic, text, mixed
+};
 
 struct MixedDate {
     char *day;
@@ -99,6 +107,7 @@ struct Node {
     Node *pRight;
 };
 
+// 使用结构
 int chapter1101(void) {
     Horses my_horse;
 
@@ -123,6 +132,7 @@ int chapter1101(void) {
     return 0;
 }
 
+// 结构体数组
 int chapter1102() {
     Horses my_horse[50];
     int hcount = 0;
@@ -162,13 +172,13 @@ int chapter1102() {
     return 0;
 }
 
-
+// 结构体指针
 int chapter1103(void) {
     Horses *phorse[50];
     int hcount = 0;
     char test = '\0';
 
-    for (hcount = 0; hcount < sizeof(phorse) / sizeof(Horses*); ++hcount) {
+    for (hcount = 0; hcount < sizeof(phorse) / sizeof(Horses *); ++hcount) {
         printf("Do you want to enter details of a%s horse (Y or N)?", hcount ? "nother" : "");
 
         scanf(" %c", &test, sizeof(test));
@@ -176,7 +186,7 @@ int chapter1103(void) {
             break;
         }
 
-        phorse[hcount] = (Horses*)malloc(sizeof(Horses));
+        phorse[hcount] = (Horses *) malloc(sizeof(Horses));
 
         printf("Enter the name of the horse: ");
         scanf("%s", phorse[hcount]->name, sizeof(phorse[hcount]->name));
@@ -204,6 +214,7 @@ int chapter1103(void) {
     return 0;
 }
 
+//  讲结构体指针用作结构成员(链表)
 int chapter1104() {
     Horse *first = NULL;
     Horse *current = NULL;
@@ -211,14 +222,14 @@ int chapter1104() {
 
     char test = '\0';
 
-    for ( ; ; ) {
+    for (;;) {
         printf("Do you want to enter details of a%s horse (Y or N) ? ", first != NULL ? "nother" : "");
         scanf(" %c", &test, sizeof(test));
 
         if (tolower(test) == 'n') {
             break;
         }
-        current = (Horse*)malloc(sizeof(Horse));
+        current = (Horse *) malloc(sizeof(Horse));
         if (first == NULL) {
             first = current;
         }
@@ -259,7 +270,7 @@ int chapter1104() {
     return 0;
 }
 
-
+// 双向链表
 int chapter1105(void) {
     Horsee *first = NULL;
     Horsee *current = NULL;
@@ -268,14 +279,14 @@ int chapter1105(void) {
 
     char test = '\0';
 
-    for (; ; ) {
+    for (;;) {
         printf("Do you want to enter details of a%s horse (Y or N) ? ", first != NULL ? "nother" : "");
         scanf(" %c", &test, sizeof(test));
 
         if (tolower(test) == 'n') {
             break;
         }
-        current = (Horsee*)malloc(sizeof(Horsee));
+        current = (Horsee *) malloc(sizeof(Horsee));
         if (first == NULL) {
             first = current;
             current->previous = NULL;
@@ -319,7 +330,7 @@ int chapter1105(void) {
     return 0;
 }
 
-
+// 返回结构指针
 int chapter1106(void) {
     Family *first = NULL;
     Family *current = NULL;
@@ -354,7 +365,7 @@ int chapter1106(void) {
 
 
 Family *get_person(void) {
-    Family *temp = (Family*)malloc(sizeof(Family));
+    Family *temp = (Family *) malloc(sizeof(Family));
 
     printf("\nEnter the name of the person: ");
     scanf("%s", temp->name, sizeof(temp->name));
@@ -381,11 +392,11 @@ void show_people(bool forwards, Family *pfirst, Family *plast) {
          pcurrent != NULL;
          pcurrent = forwards ? pcurrent->next : pcurrent->previous) {
         printf("%s was born %d/%d/%d and has %s and %s as parents.\n", pcurrent->name,
-                 pcurrent->dob.day,
-                 pcurrent->dob.month,
-                 pcurrent->dob.year,
-                 pcurrent->father,
-                 pcurrent->mother);
+               pcurrent->dob.day,
+               pcurrent->dob.month,
+               pcurrent->dob.year,
+               pcurrent->father,
+               pcurrent->mother);
     }
 }
 
@@ -400,6 +411,7 @@ void release_memory(Family *pfirst) {
     }
 }
 
+// 二叉树排序
 int chapter1107() {
     long newvalue = 0;
     Node *pRoot = NULL;
@@ -425,7 +437,7 @@ int chapter1107() {
 
 
 Node *create_node(long value) {
-    Node *pNode = (Node*)malloc(sizeof(Node));
+    Node *pNode = (Node *) malloc(sizeof(Node));
 
     pNode->item = value;
     pNode->count = 1;
@@ -483,15 +495,15 @@ void free_nodes(Node *pNode) {
     free(pNode);
 }
 
-
+// 使用联合体
 int chapter1108(void) {
-    NumbericDate yesterday = { 11, 11, 2012 };
-    char *day = const_cast<char*> ("Monday");
-    char *date = const_cast<char*> ("12th November");
-    MixedDate today = { day , date , 2012 };
+    NumbericDate yesterday = {11, 11, 2012};
+    char *day = const_cast<char *> ("Monday");
+    char *date = const_cast<char *> ("12th November");
+    MixedDate today = {day, date, 2012};
     char tomorrow[] = "Thus 13th Nov 2012";
 
-    UDate udate = { tomorrow };
+    UDate udate = {tomorrow};
     Dates the_date;
     the_date.date = udate;
     the_date.format = text;
@@ -509,21 +521,21 @@ int chapter1108(void) {
 }
 
 
-void print_date(const Dates* date) {
+void print_date(const Dates *date) {
     switch (date->format) {
         case numberic:
             printf("The date is %d/%d/%d.\n", date->date.nDate.day,
-                     date->date.nDate.month,
-                     date->date.nDate.year);
+                   date->date.nDate.month,
+                   date->date.nDate.year);
             break;
         case text:
             printf("The date is %s.\n", date->date.date_str);
             break;
         case mixed:
             printf("The date is %s %s %d.\n",
-                     date->date.day_date.day,
-                     date->date.day_date.date,
-                     date->date.day_date.year);
+                   date->date.day_date.day,
+                   date->date.day_date.date,
+                   date->date.day_date.year);
             break;
         default:
             printf("Invalid date format!\n");
