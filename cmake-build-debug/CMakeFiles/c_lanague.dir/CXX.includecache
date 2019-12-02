@@ -6,19 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/sunchangqing/workspaces/c-lanague/base/chapter11/chapter11.cpp
-chapter11.h
-/Users/sunchangqing/workspaces/c-lanague/base/chapter11/chapter11.h
+/Users/sunchangqing/workspaces/c-lanague/base/chapter08/chapter08.cpp
+chapter08.h
+/Users/sunchangqing/workspaces/c-lanague/base/chapter08/chapter08.h
 
-/Users/sunchangqing/workspaces/c-lanague/base/chapter11/chapter11.h
+/Users/sunchangqing/workspaces/c-lanague/base/chapter08/chapter08.h
 stdio.h
--
-ctype.h
 -
 stdlib.h
 -
+stdbool.h
+-
+string.h
+-
+stdarg.h
+-
 
 /Users/sunchangqing/workspaces/c-lanague/main.cpp
-base/chapter11/chapter11.h
-/Users/sunchangqing/workspaces/c-lanague/base/chapter11/chapter11.h
+base/chapter08/chapter08.h
+/Users/sunchangqing/workspaces/c-lanague/base/chapter08/chapter08.h
 

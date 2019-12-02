@@ -195,7 +195,7 @@ int differences(int x, int y) {
     return x - y;
 }
 
-
+// 函数指针
 int chapter0806() {
     int a = 10;
     int b = 5;
@@ -216,7 +216,7 @@ int chapter0806() {
     return 0;
 }
 
-
+// 函数指针数组
 int chapter0807() {
     int a = 10;
     int b = 5;
@@ -238,6 +238,7 @@ int chapter0807() {
     return 0;
 }
 
+// 函数指针作为变量
 int chapter0808() {
     int a = 10;
     int b = 5;
@@ -266,7 +267,7 @@ void test2(void) {
     printf("test2 count = %d\n", ++count);
 }
 
-
+// 静态变量
 int chapter0809() {
     for (int i = 0; i < 5; i++) {
         test1();
@@ -288,6 +289,7 @@ void test4(void) {
     printf("test4 count = %d\n", ++count);
 }
 
+// 全局变量，静态变量
 int chapter0810() {
     int count = 0;
     for (; count < 5; ++count) {
@@ -306,6 +308,7 @@ unsigned long long factorial(unsigned long long n) {
     return n * factorial(n - 1LL);
 }
 
+// 递归：斐波那契
 int chapter0811() {
     unsigned long long number = 0LL;
     printf("Enter an Integer value:");
@@ -333,6 +336,7 @@ double average(double v1, double v2, ...) {
     return sum / count;
 }
 
+// 参数可变的函数
 int chapter0812() {
     double v1 = 10.5;
     double v2 = 2.5;
