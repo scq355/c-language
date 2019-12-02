@@ -13,8 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9a7005f1-17e1-4b1e-a73b-6fa552b14ec5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/chapter08/chapter08.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter08/chapter08.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/chapter08/chapter08.h" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter08/chapter08.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter10/chapter10.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter10/chapter10.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/chapter10/chapter10.h" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter10/chapter10.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_lanague" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_lanague" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <list id="daa403c0-4842-41aa-b79c-9766a712d9ff" name=".idea文件忽略" comment=".idea文件忽略" />
@@ -25,6 +26,20 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="true" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FavoritesManager">
@@ -65,6 +80,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,7 +90,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="net.zero9178.cov.window.SettingsWindowImpl" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -116,7 +132,10 @@
       <workItem from="1573961294541" duration="642000" />
       <workItem from="1574586422505" duration="1422000" />
       <workItem from="1574777033425" duration="1047000" />
-      <workItem from="1574835770588" duration="30237000" />
+      <workItem from="1574835770588" duration="30489000" />
+      <workItem from="1575122455908" duration="32000" />
+      <workItem from="1575195564027" duration="980000" />
+      <workItem from="1575278176404" duration="2466000" />
     </task>
     <task id="LOCAL-00001" summary=".idea文件忽略">
       <created>1573893020994</created>
@@ -202,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575108075549</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="TODO: str_out(ps, str_count);">
+      <created>1575109250938</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575109250938</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +237,56 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/sunchangqing/workspaces/c-lanague/base/chapter05" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/sunchangqing/workspaces/c-lanague/base/chapter07" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -219,6 +295,12 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,7 +313,8 @@
     <MESSAGE value="第七章：指针（还差一部分）" />
     <MESSAGE value="第七章：指针（俩程序编译不过）" />
     <MESSAGE value="第八章：程序结构（使用指针传输数据）" />
-    <option name="LAST_COMMIT_MESSAGE" value="第八章：程序结构（使用指针传输数据）" />
+    <MESSAGE value="TODO: str_out(ps, str_count);" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO: str_out(ps, str_count);" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -239,18 +322,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1574836882418" />
+    <state x="320" y="117" key="#Notifications" timestamp="1575278130084">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="117" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1575278130084" />
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575201570101">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1575201570101" />
     <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1574586645868">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1574586645868" />
+    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575278146129">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1575278146129" />
     <state x="608" y="160" width="472" height="579" key="#xdebugger.evaluate" timestamp="1575016727103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="608" y="160" width="472" height="579" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1575016727103" />
-    <state x="285" y="51" key="CommitChangelistDialog2" timestamp="1575108075382">
+    <state x="285" y="51" key="CommitChangelistDialog2" timestamp="1575109250783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575108075382" />
+    <state x="285" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575109250783" />
     <state width="469" height="466" key="DebuggerActiveHint" timestamp="1575100916511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -263,38 +358,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="523" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1573892300085" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1575108354252">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1575281077951">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575108354252" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1575108354251">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575281077951" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1575281077950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575108354251" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1575108354250">
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575281077950" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1575281077949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575108354250" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1575108354251">
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575281077949" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1575281077950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575108354251" />
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1575108354254">
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575281077950" />
+    <state width="1398" height="237" key="GridCell.Tab.1.bottom" timestamp="1575281077953">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575108354254" />
-    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1575108354253">
+    <state width="1398" height="237" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575281077953" />
+    <state width="1398" height="237" key="GridCell.Tab.1.center" timestamp="1575281077952">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575108354253" />
-    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1575108354252">
+    <state width="1398" height="237" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575281077952" />
+    <state width="1398" height="237" key="GridCell.Tab.1.left" timestamp="1575281077952">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575108354252" />
-    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1575108354253">
+    <state width="1398" height="237" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575281077952" />
+    <state width="1398" height="237" key="GridCell.Tab.1.right" timestamp="1575281077953">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575108354253" />
+    <state width="1398" height="237" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575281077953" />
     <state x="308" y="200" key="IDE.errors.dialog" timestamp="1574857585483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -303,22 +398,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="431" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1573893587930" />
-    <state x="0" y="23" width="1440" height="824" key="SettingsEditor" timestamp="1574840587755">
+    <state x="0" y="23" width="1440" height="824" key="SettingsEditor" timestamp="1575278200993">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="23" width="1440" height="824" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1574840587755" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575108077619">
+    <state x="0" y="23" width="1440" height="824" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575278200993" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575109252425">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575108077619" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575109252425" />
     <state x="509" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1573893527771">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="509" y="191" key="VcsDiffUtil.ChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1573893527771" />
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1574835772055">
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1575278180036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1574835772055" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1575278180036" />
     <state x="415" y="248" key="git4idea.merge.GitPullDialog" timestamp="1573893479700">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -327,21 +422,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1573892920380" />
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1574777671799">
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1575201688502">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1574777671799" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1575201688502" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/base/chapter05/chapter05.cpp</url>
-          <line>172</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="pString" language="ObjectiveC" />

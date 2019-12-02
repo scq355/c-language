@@ -8,8 +8,8 @@
 //#include "base/chapter05/chapter05.h"
 //#include "base/chapter06/chapter06.h"
 //#include "base/chapter07/chapter07.h"
-#include "base/chapter08/chapter08.h"
-//#include "base/chapter10/chapter10.h"
+//#include "base/chapter08/chapter08.h"
+#include "base/chapter10/chapter10.h"
 //#include "base/chapter11/chapter11.h"
 //#include "base/chapter13/chapter13.h"
 
@@ -72,7 +72,7 @@ int main() {
 //  chapter0805();
 
     // 第九章 函数再探
-    chapter0806();
+//    chapter0806();
 //	chapter0807();
 //	chapter0808();
 //	chapter0809();
@@ -81,8 +81,17 @@ int main() {
 //    chapter0812();
 //
 
-//
 //    // 第十章 基本输入和输出操作
+//    chapter1001();
+//    chapter1002();
+//    chapter1003();
+//    chapter1004();
+//    chapter1005();
+//    chapter1006();
+//    chapter1007();
+//    chapter1008();
+//    chapter1009();
+//    chapter1010();
 //    chapter1011();
 //
 //    // 第十一章 结构化数据

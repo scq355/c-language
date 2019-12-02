@@ -4,6 +4,7 @@
 
 #include "chapter10.h"
 
+// 格式输入
 int chapter1001() {
     char *param1 = const_cast<char*>("Entrt as input: -2.35 15 25 ready2go\n");
     char *param2 = const_cast<char*>("%f %d %d %[abcdefghijklmnopqrstuvwxyz] %*ld %s%n");
@@ -36,6 +37,7 @@ void try_input(char *prompt, char *format) {
     printf("word1 = %s  word2 = %s\n", word1, word2);
 }
 
+// 输入格式字符串中的字符
 int chapter1002() {
     int i = 0;
     int j = 0;
@@ -44,6 +46,8 @@ int chapter1002() {
     printf("Enter: fp1 = 3.14159 i = 7 8 \n");
 
     printf("\nInput:");
+    // 可在输入格式字符串中包含一些不是格式转换说明的字符，在指定输入中必须包含这些字符
+    // scanf()会读取这些非格式字符，但不会存储，非格式字符必须完全相同,scanf会返回格式输入字符个数
     value_count = scanf("fp1 = %f i = %d %d", &fp1, &i, &j);
     printf("\nOutput:\n");
     printf("Count of value read = %d\n", value_count);
@@ -52,12 +56,14 @@ int chapter1002() {
     return 0;
 }
 
+// 输入浮点数的各种变化
 int chapter1003() {
     float f1 = 0.0f;
     float f2 = 0.0f;
     float f3 = 0.0f;
 
     int value_count = 0;
+    // 3.10, 0.314*10, 0.0314*100
     printf("Enter: 3.14.314E1.0314e+02\n");
 
     printf("Input:\n");
@@ -69,6 +75,7 @@ int chapter1003() {
     return 0;
 }
 
+// 十六进制和八进制
 int chapter1004() {
     int i = 0;
     int j = 0;
@@ -76,6 +83,7 @@ int chapter1004() {
     int n = 0;
 
     printf("Enter three integer values:");
+    // 十进制，十六进制，八进制
     n = scanf("%d %x %o", &i, &j, &k);
 
     printf("Input:\n");
@@ -85,7 +93,7 @@ int chapter1004() {
     return 0;
 }
 
-
+// 读入字符串和字符串
 int chapter1005() {
     char initial = ' ';
     char name[80] = { ' ' };
@@ -104,22 +112,24 @@ int chapter1005() {
     } else {
         printf("Hi, %s.Your initial is corrent. Well done!\n", name);
         printf("Enter your full name and your age sparated by a comma:\n");
-//        scanf("%[^,], %[0123456789]", name, sizeof(name), age, sizeof(age));
+        // %[0123456789] 读入为一个字符串，会把连续几个数字解析为一个字符串
+        scanf("%[^,], %[0123456789]", name, age);
         printf("\nYour name is %s and you are %s years old.\n", name, age);
     }
 
     return 0;
 }
 
+// 读入字符串
 int chapter1006() {
-    char initial[3] = { ' ' };
-    char name[80] = { ' ' };
+    char initial[3] = {' ' };
+    char name[80] = {' ' };
 
     printf("Enter your first initial: ");
-//    gets_s(initial, sizeof(initial));
+    gets(initial);
 
     printf("Enter your name: ");
-//    gets_s(name, sizeof(name));
+    gets(name);
 
     if (initial[0] != name[0]) {
         printf("%s, you got initial wrong.\n", name);
@@ -130,6 +140,7 @@ int chapter1006() {
     return 0;
 }
 
+// 读取和不读取字符
 int chapter1007() {
     int number;
     char name[LENGTH] = { '\0' };
@@ -206,7 +217,7 @@ bool isnewline(void) {
     return false;
 }
 
-
+// 输出整数
 int chapter1008() {
     int i = 15;
     int j = 345;
@@ -228,6 +239,7 @@ int chapter1008() {
     return 0;
 }
 
+// 单一整数的变化
 int chapter1009() {
     int k = 678;
 
@@ -239,7 +251,7 @@ int chapter1009() {
     return 0;
 }
 
-
+// 输出浮点数
 int chapter1010() {
     float fp1 = 345.678f;
     float fp2 = 1.234E6f;
@@ -253,7 +265,7 @@ int chapter1010() {
     return 0;
 }
 
-
+// 输出单个字符
 int chapter1011() {
     int count = 0;
     printf("The printable characters are the following:\n");
