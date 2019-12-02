@@ -8,7 +8,7 @@
 //#include "base/chapter05/chapter05.h"
 //#include "base/chapter06/chapter06.h"
 //#include "base/chapter07/chapter07.h"
-#include "base/chapter08/chapter08.h"
+//#include "base/chapter08/chapter08.h"
 //#include "base/chapter10/chapter10.h"
 //#include "base/chapter11/chapter11.h"
 //#include "base/chapter13/chapter13.h"
@@ -72,13 +72,13 @@ int main() {
 //  chapter0805();
 
     // 第九章 函数再探(函数指针)
-//    chapter0806();
+//  chapter0806();
 //	chapter0807();
 //	chapter0808();
 //	chapter0809();
 //	chapter0810();
 //	chapter0811();
-    chapter0812();
+//  chapter0812();
 //
 
 //    // 第十章 基本输入和输出操作
