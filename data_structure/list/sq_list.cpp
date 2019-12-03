@@ -6,7 +6,7 @@
 #include "../../headers/data_structure/sq_list.h"
 
 int init_list_sq(SqList L) {
-    L.elem = malloc(LIST_INIT_SIZE * sizeof(int));
+    L.elem = (int *) malloc(LIST_INIT_SIZE * sizeof(int));
     if (!L.elem) {
         exit(OVERFLOW);
     }
@@ -16,13 +16,13 @@ int init_list_sq(SqList L) {
 }
 
 int insert_list_sq(SqList L, int i, int e) {
-    //
+    // i的合法位置为[1, ListLength_Sq + 1]
     if (i < 1 || i > L.length + 1) { // i的位置不合法
         return ERROR;
     }
     int *new_base;
     if (L.length >= L.list_size) { // 当前存储空间已满，增加分配
-        new_base = realloc(L.elem, (L.list_size + LIST_INCREMENT) * sizeof(int));
+        new_base = (int *) realloc(L.elem, (L.list_size + LIST_INCREMENT) * sizeof(int));
         if (!new_base) { // 存储空间分配失败
             exit(OVERFLOW);
         }

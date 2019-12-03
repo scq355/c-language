@@ -213,6 +213,32 @@ CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/base/chapter13/chapter13.cpp -o CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.s
 
+CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o: ../data_structure/list/sq_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/data_structure/list/sq_list.cpp
+
+CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/data_structure/list/sq_list.cpp > CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.i
+
+CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/data_structure/list/sq_list.cpp -o CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.s
+
+CMakeFiles/c_lanague.dir/invokers/base.cpp.o: CMakeFiles/c_lanague.dir/flags.make
+CMakeFiles/c_lanague.dir/invokers/base.cpp.o: ../invokers/base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/c_lanague.dir/invokers/base.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_lanague.dir/invokers/base.cpp.o -c /Users/sunchangqing/workspaces/c-lanague/invokers/base.cpp
+
+CMakeFiles/c_lanague.dir/invokers/base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_lanague.dir/invokers/base.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sunchangqing/workspaces/c-lanague/invokers/base.cpp > CMakeFiles/c_lanague.dir/invokers/base.cpp.i
+
+CMakeFiles/c_lanague.dir/invokers/base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_lanague.dir/invokers/base.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sunchangqing/workspaces/c-lanague/invokers/base.cpp -o CMakeFiles/c_lanague.dir/invokers/base.cpp.s
+
 # Object files for target c_lanague
 c_lanague_OBJECTS = \
 "CMakeFiles/c_lanague.dir/main.cpp.o" \
@@ -226,7 +252,9 @@ c_lanague_OBJECTS = \
 "CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o" \
 "CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o" \
 "CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o" \
-"CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o"
+"CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o" \
+"CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o" \
+"CMakeFiles/c_lanague.dir/invokers/base.cpp.o"
 
 # External object files for target c_lanague
 c_lanague_EXTERNAL_OBJECTS =
@@ -243,9 +271,11 @@ c_lanague: CMakeFiles/c_lanague.dir/base/chapter08/chapter08.cpp.o
 c_lanague: CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o
 c_lanague: CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o
 c_lanague: CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o
+c_lanague: CMakeFiles/c_lanague.dir/invokers/base.cpp.o
 c_lanague: CMakeFiles/c_lanague.dir/build.make
 c_lanague: CMakeFiles/c_lanague.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable c_lanague"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable c_lanague"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_lanague.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

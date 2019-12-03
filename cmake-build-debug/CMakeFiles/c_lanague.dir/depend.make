@@ -34,6 +34,11 @@ CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o: ../base/chapter11/chapt
 CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o: ../base/chapter13/chapter13.cpp
 CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o: ../base/chapter13/chapter13.h
 
-CMakeFiles/c_lanague.dir/main.cpp.o: ../base/chapter08/chapter08.h
+CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o: ../data_structure/list/sq_list.cpp
+CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o: ../headers/data_structure/sq_list.h
+
+CMakeFiles/c_lanague.dir/invokers/base.cpp.o: ../invokers/base.cpp
+
+CMakeFiles/c_lanague.dir/main.cpp.o: ../headers/data_structure/sq_list.h
 CMakeFiles/c_lanague.dir/main.cpp.o: ../main.cpp
 

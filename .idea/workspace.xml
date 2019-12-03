@@ -12,12 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7005f1-17e1-4b1e-a73b-6fa552b14ec5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/base/chapter08/chapter08.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/base/chapter08/chapter08.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_lanague.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_lanague" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_lanague" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_lanague.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_lanague.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure/list/sq_list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/list/sq_list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/data_structure/sq_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/data_structure/sq_list.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <list id="daa403c0-4842-41aa-b79c-9766a712d9ff" name=".idea文件忽略" comment=".idea文件忽略" />
@@ -86,6 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -137,7 +150,8 @@
       <workItem from="1574835770588" duration="30489000" />
       <workItem from="1575122455908" duration="32000" />
       <workItem from="1575195564027" duration="980000" />
-      <workItem from="1575278176404" duration="4250000" />
+      <workItem from="1575278176404" duration="4404000" />
+      <workItem from="1575287391157" duration="7872000" />
     </task>
     <task id="LOCAL-00001" summary=".idea文件忽略">
       <created>1573893020994</created>
@@ -244,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575282515107</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="第九章：函数指针">
+      <created>1575282943268</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575282943268</updated>
+    </task>
+    <task id="LOCAL-00017" summary="第九章：函数指针">
+      <created>1575283012988</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575283012988</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +360,8 @@
     <MESSAGE value="TODO: str_out(ps, str_count);" />
     <MESSAGE value="第十章：输入输出I/O" />
     <MESSAGE value="第十一章：结构体" />
-    <option name="LAST_COMMIT_MESSAGE" value="第十一章：结构体" />
+    <MESSAGE value="第九章：函数指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="第九章：函数指针" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -360,10 +389,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="608" y="160" width="472" height="579" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1575016727103" />
-    <state x="285" y="51" key="CommitChangelistDialog2" timestamp="1575282942824">
+    <state x="285" y="51" key="CommitChangelistDialog2" timestamp="1575283012687">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575282942824" />
+    <state x="285" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575283012687" />
     <state width="469" height="466" key="DebuggerActiveHint" timestamp="1575100916511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -376,38 +405,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="523" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1573892300085" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1575282893454">
+    <state width="1398" height="449" key="GridCell.Tab.0.bottom" timestamp="1575378698777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575282893454" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1575282893451">
+    <state width="1398" height="449" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575378698777" />
+    <state width="1398" height="353" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1575376244646" />
+    <state width="1398" height="449" key="GridCell.Tab.0.center" timestamp="1575378698776">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575282893451" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1575282893449">
+    <state width="1398" height="449" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575378698776" />
+    <state width="1398" height="353" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1575376244645" />
+    <state width="1398" height="449" key="GridCell.Tab.0.left" timestamp="1575378698775">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575282893449" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1575282893452">
+    <state width="1398" height="449" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575378698775" />
+    <state width="1398" height="353" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1575376244644" />
+    <state width="1398" height="449" key="GridCell.Tab.0.right" timestamp="1575378698776">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575282893452" />
-    <state width="1398" height="215" key="GridCell.Tab.1.bottom" timestamp="1575282893458">
+    <state width="1398" height="449" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575378698776" />
+    <state width="1398" height="353" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1575376244645" />
+    <state width="1398" height="449" key="GridCell.Tab.1.bottom" timestamp="1575378698782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575282893458" />
-    <state width="1398" height="215" key="GridCell.Tab.1.center" timestamp="1575282893456">
+    <state width="1398" height="449" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575378698782" />
+    <state width="1398" height="353" key="GridCell.Tab.1.bottom/0.23.1440.824@0.23.1440.824" timestamp="1575376060133" />
+    <state width="1398" height="449" key="GridCell.Tab.1.center" timestamp="1575378698781">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575282893456" />
-    <state width="1398" height="215" key="GridCell.Tab.1.left" timestamp="1575282893455">
+    <state width="1398" height="449" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575378698781" />
+    <state width="1398" height="353" key="GridCell.Tab.1.center/0.23.1440.824@0.23.1440.824" timestamp="1575376060132" />
+    <state width="1398" height="449" key="GridCell.Tab.1.left" timestamp="1575378698780">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575282893455" />
-    <state width="1398" height="215" key="GridCell.Tab.1.right" timestamp="1575282893457">
+    <state width="1398" height="449" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575378698780" />
+    <state width="1398" height="353" key="GridCell.Tab.1.left/0.23.1440.824@0.23.1440.824" timestamp="1575376060131" />
+    <state width="1398" height="449" key="GridCell.Tab.1.right" timestamp="1575378698781">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575282893457" />
+    <state width="1398" height="449" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575378698781" />
+    <state width="1398" height="353" key="GridCell.Tab.1.right/0.23.1440.824@0.23.1440.824" timestamp="1575376060132" />
     <state x="308" y="200" key="IDE.errors.dialog" timestamp="1574857585483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -420,10 +457,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="23" width="1440" height="824" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575278200993" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575282945027">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575283014238">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575282945027" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575283014238" />
     <state x="509" y="191" key="VcsDiffUtil.ChangesDialog" timestamp="1573893527771">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -449,6 +486,12 @@
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="pString" language="ObjectiveC" />
+        <watch expression="L.length" language="ObjectiveC" />
+        <watch expression="L.elem[i - 1]" language="ObjectiveC" />
+        <watch expression="&amp;(L.elem[i - 1])" language="ObjectiveC" />
+        <watch expression="&amp;(L.elem[L.length - 1])" language="ObjectiveC" />
+        <watch expression="p" language="ObjectiveC" />
+        <watch expression="q" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>

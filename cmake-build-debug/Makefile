@@ -420,6 +420,60 @@ base/chapter13/chapter13.cpp.s:
 	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.s
 .PHONY : base/chapter13/chapter13.cpp.s
 
+data_structure/list/sq_list.o: data_structure/list/sq_list.cpp.o
+
+.PHONY : data_structure/list/sq_list.o
+
+# target to build an object file
+data_structure/list/sq_list.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o
+.PHONY : data_structure/list/sq_list.cpp.o
+
+data_structure/list/sq_list.i: data_structure/list/sq_list.cpp.i
+
+.PHONY : data_structure/list/sq_list.i
+
+# target to preprocess a source file
+data_structure/list/sq_list.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.i
+.PHONY : data_structure/list/sq_list.cpp.i
+
+data_structure/list/sq_list.s: data_structure/list/sq_list.cpp.s
+
+.PHONY : data_structure/list/sq_list.s
+
+# target to generate assembly for a file
+data_structure/list/sq_list.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.s
+.PHONY : data_structure/list/sq_list.cpp.s
+
+invokers/base.o: invokers/base.cpp.o
+
+.PHONY : invokers/base.o
+
+# target to build an object file
+invokers/base.cpp.o:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/invokers/base.cpp.o
+.PHONY : invokers/base.cpp.o
+
+invokers/base.i: invokers/base.cpp.i
+
+.PHONY : invokers/base.i
+
+# target to preprocess a source file
+invokers/base.cpp.i:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/invokers/base.cpp.i
+.PHONY : invokers/base.cpp.i
+
+invokers/base.s: invokers/base.cpp.s
+
+.PHONY : invokers/base.s
+
+# target to generate assembly for a file
+invokers/base.cpp.s:
+	$(MAKE) -f CMakeFiles/c_lanague.dir/build.make CMakeFiles/c_lanague.dir/invokers/base.cpp.s
+.PHONY : invokers/base.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -489,6 +543,12 @@ help:
 	@echo "... base/chapter13/chapter13.o"
 	@echo "... base/chapter13/chapter13.i"
 	@echo "... base/chapter13/chapter13.s"
+	@echo "... data_structure/list/sq_list.o"
+	@echo "... data_structure/list/sq_list.i"
+	@echo "... data_structure/list/sq_list.s"
+	@echo "... invokers/base.o"
+	@echo "... invokers/base.i"
+	@echo "... invokers/base.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

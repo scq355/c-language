@@ -15,6 +15,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/sunchangqing/workspaces/c-lanague/base/chapter10/chapter10.cpp" "/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o"
   "/Users/sunchangqing/workspaces/c-lanague/base/chapter11/chapter11.cpp" "/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o"
   "/Users/sunchangqing/workspaces/c-lanague/base/chapter13/chapter13.cpp" "/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o"
+  "/Users/sunchangqing/workspaces/c-lanague/data_structure/list/sq_list.cpp" "/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o"
+  "/Users/sunchangqing/workspaces/c-lanague/invokers/base.cpp" "/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles/c_lanague.dir/invokers/base.cpp.o"
   "/Users/sunchangqing/workspaces/c-lanague/main.cpp" "/Users/sunchangqing/workspaces/c-lanague/cmake-build-debug/CMakeFiles/c_lanague.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

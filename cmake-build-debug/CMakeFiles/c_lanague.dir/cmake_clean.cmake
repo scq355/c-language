@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_lanague.dir/base/chapter10/chapter10.cpp.o"
   "CMakeFiles/c_lanague.dir/base/chapter11/chapter11.cpp.o"
   "CMakeFiles/c_lanague.dir/base/chapter13/chapter13.cpp.o"
+  "CMakeFiles/c_lanague.dir/data_structure/list/sq_list.cpp.o"
+  "CMakeFiles/c_lanague.dir/invokers/base.cpp.o"
   "CMakeFiles/c_lanague.dir/main.cpp.o"
   "c_lanague"
   "c_lanague.pdb"
