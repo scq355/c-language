@@ -5,7 +5,7 @@
 
 #include "../../headers/data_structure/sq_list.h"
 
-int init_list_sq(SqList L) {
+int init_list_sq(SqList &L) {
     L.elem = (int *) malloc(LIST_INIT_SIZE * sizeof(int));
     if (!L.elem) {
         exit(OVERFLOW);
@@ -15,7 +15,7 @@ int init_list_sq(SqList L) {
     return OK;
 }
 
-int insert_list_sq(SqList L, int i, int e) {
+int insert_list_sq(SqList &L, int i, int e) {
     // i的合法位置为[1, ListLength_Sq + 1]
     if (i < 1 || i > L.length + 1) { // i的位置不合法
         return ERROR;
@@ -45,7 +45,7 @@ int insert_list_sq(SqList L, int i, int e) {
     return OK;
 }
 
-int delete_list_sq(SqList L, int i, int e) {
+int delete_list_sq(SqList &L, int i, int e) {
     // i的合法位置为[1, ListLength_Sq + 1]
     if (i < 1 || i > L.length) { // i值不合法
         return ERROR;
@@ -66,7 +66,7 @@ int delete_list_sq(SqList L, int i, int e) {
     return OK;
 }
 
-int locate_elem_sq(SqList L, int e, int (*compare)(int, int)) {
+int locate_elem_sq(SqList &L, int e, int (*compare)(int, int)) {
     // i的初始值为第一个元素的位序
     int i = 1;
     // p的初始值为第一个元素的地址

@@ -29,7 +29,7 @@ typedef struct {
  * @param L
  * @return
  */
-int init_list_sq(SqList L);
+int init_list_sq(SqList &L);
 
 /**
  * 在顺序线性表L中第i个位置之前插入新元素e
@@ -38,7 +38,7 @@ int init_list_sq(SqList L);
  * @param e 待插入的元素
  * @return
  */
-int insert_list_sq(SqList L, int i, int e);
+int insert_list_sq(SqList &L, int i, int e);
 
 /**
  * 顺序线性表L中删除第i个元素，并用e返回其值
@@ -47,7 +47,7 @@ int insert_list_sq(SqList L, int i, int e);
  * @param e 用于存储被删元素的变量
  * @return
  */
-int delete_list_sq(SqList L, int i, int e);
+int delete_list_sq(SqList &L, int i, int e);
 
 /**
  * 相等
@@ -64,6 +64,6 @@ int get_equal(int a, int b);
  * @param compare 比较方案（函数指针）
  * @return
  */
-int locate_elem_sq(SqList L, int e, int (*compare)(int, int));
+int locate_elem_sq(SqList &L, int e, int (*compare)(int, int));
 
 #endif //C_LANAGUE_SQ_LIST_H
